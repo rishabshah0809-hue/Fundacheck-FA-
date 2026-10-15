@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T13:58:49.165139+00:00",
+  "generated_at": "2026-10-15T14:44:46.070083+00:00",
   "market_snapshot_date": "2026-10-15",
   "source": "Screener.in (public company pages)",
   "source_note": "Screener.in public data — not official exchange data, not guaranteed real-time.",
@@ -2036,10 +2036,10 @@
       "stale_symbols": [],
       "fundamental_period": "Mar 2026 (annual) + TTM P&L",
       "metrics": {
-        "pe": 18.35,
+        "pe": 18.29,
         "pb": 5.34,
-        "roe": 29.12,
-        "roce": 33.95,
+        "roe": 29.2,
+        "roce": 34.08,
         "methodology": {
           "pe": {
             "formula": "Σ MarketCap / Σ NetProfit(TTM>0)",
@@ -2169,21 +2169,21 @@
           "screener_url": "https://www.screener.in/company/TECHM/",
           "cmp": 1650.0,
           "market_cap": 161644.0,
-          "pe": 30.4,
-          "pb": 5.46,
+          "pe": 28.3,
+          "pb": 5.45,
           "roe": 17.5,
           "roce": 23.1,
-          "roa": 10.5,
-          "opm": 16.62,
-          "npm": 8.72,
+          "roa": 11.42,
+          "opm": 17.19,
+          "npm": 9.08,
           "debt_to_equity": 0.07,
-          "interest_coverage": 21.38,
+          "interest_coverage": 22.87,
           "revenue_growth_yoy": 7.22,
           "eps_ttm_growth": 13.06,
-          "book_value": 302.0,
+          "book_value": 303.0,
           "dividend_yield": 3.09,
-          "net_profit_ttm": 5163.0,
-          "equity": 29616.0,
+          "net_profit_ttm": 5571.0,
+          "equity": 29673.0,
           "rank": 5
         },
         {
@@ -11196,18 +11196,16 @@
       "stale_symbols": [],
       "fundamental_period": "Mar 2026 (annual) + TTM P&L",
       "metrics": {
-        "pe": 22.08,
+        "pe": 22.06,
         "pb": 3.29,
-        "roe": 14.69,
-        "roce": 12.29,
+        "roe": 14.91,
+        "roce": 12.3,
         "methodology": {
           "pe": {
             "formula": "Σ MarketCap / Σ NetProfit(TTM>0)",
-            "included": 22,
-            "excluded": 1,
-            "exclusions": {
-              "SWSOLAR": "net profit <=0 or unavailable"
-            }
+            "included": 23,
+            "excluded": 0,
+            "exclusions": {}
           },
           "pb": {
             "formula": "Σ MarketCap / Σ Equity (Equity = Equity Capital + Reserves)",
@@ -11225,7 +11223,7 @@
             "excluded": 0
           }
         },
-        "companies_in_pe": 22
+        "companies_in_pe": 23
       },
       "constituents": [
         {
@@ -11643,21 +11641,21 @@
           "screener_url": "https://www.screener.in/company/SWSOLAR/",
           "cmp": 175.0,
           "market_cap": 4087.0,
-          "pe": 13.1,
-          "pb": 6.29,
+          "pe": 17.8,
+          "pb": 5.65,
           "roe": 40.1,
           "roce": 26.8,
-          "roa": -5.28,
-          "opm": 4.0,
-          "npm": -3.81,
-          "debt_to_equity": 1.84,
-          "interest_coverage": 1.73,
+          "roa": 4.07,
+          "opm": 4.86,
+          "npm": 2.98,
+          "debt_to_equity": 1.31,
+          "interest_coverage": 1.88,
           "revenue_growth_yoy": 19.77,
           "eps_ttm_growth": -479.66,
-          "book_value": 27.8,
+          "book_value": 31.0,
           "dividend_yield": 0.0,
-          "net_profit_ttm": -281.0,
-          "equity": 649.0,
+          "net_profit_ttm": 213.0,
+          "equity": 722.0,
           "rank": 18
         },
         {
