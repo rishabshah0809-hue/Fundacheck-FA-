@@ -1,14 +1,17 @@
 {
-  "generated_at": "2026-10-20T14:25:42.409308+00:00",
+  "generated_at": "2026-10-20T14:44:47.322867+00:00",
   "market_snapshot_date": "2026-10-20",
   "source": "Screener.in (public company pages)",
   "source_note": "Screener.in public data — not official exchange data, not guaranteed real-time.",
   "unique_companies": 410,
-  "fetched_ok": 408,
-  "fetch_failed": 2,
+  "fetched_ok": 405,
+  "fetch_failed": 5,
   "failed_symbols": [
-    "INOXGREEN",
-    "WEWORK"
+    "WAAREEENER",
+    "IRCON",
+    "DELHIVERY",
+    "HEMIPROP",
+    "SMARTWORKS"
   ],
   "sectors": [
     {
@@ -9951,39 +9954,41 @@
       "reference_index": "NIFTY CAPITAL GOODS",
       "is_financial": false,
       "constituent_count": 50,
-      "included_count": 50,
-      "stale_count": 0,
-      "stale_symbols": [],
+      "included_count": 49,
+      "stale_count": 1,
+      "stale_symbols": [
+        "WAAREEENER"
+      ],
       "fundamental_period": "Mar 2026 (annual) + TTM P&L",
       "metrics": {
-        "pe": 42.47,
-        "pb": 8.77,
-        "roe": 20.66,
-        "roce": 19.31,
+        "pe": 43.86,
+        "pb": 8.93,
+        "roe": 20.36,
+        "roce": 18.9,
         "methodology": {
           "pe": {
             "formula": "Σ MarketCap / Σ NetProfit(TTM>0)",
-            "included": 50,
+            "included": 49,
             "excluded": 0,
             "exclusions": {}
           },
           "pb": {
             "formula": "Σ MarketCap / Σ Equity (Equity = Equity Capital + Reserves)",
-            "included": 50,
+            "included": 49,
             "excluded": 0
           },
           "roe": {
             "formula": "Σ NetProfit(TTM) / Σ Equity",
-            "included": 50,
+            "included": 49,
             "excluded": 0
           },
           "roce": {
             "formula": "Σ EBIT / Σ (Equity + Borrowings); EBIT = OperatingProfit(TTM) − Depreciation(TTM)",
-            "included": 50,
+            "included": 49,
             "excluded": 0
           }
         },
-        "companies_in_pe": 50
+        "companies_in_pe": 49
       },
       "constituents": [
         {
@@ -10344,7 +10349,9 @@
           "dividend_yield": 0.16,
           "net_profit_ttm": 4003.0,
           "equity": 14438.0,
-          "rank": 15
+          "rank": 15,
+          "stale": true,
+          "stale_since": "2026-10-20"
         },
         {
           "name": "Welspun Corp Ltd",
@@ -11194,39 +11201,41 @@
       "reference_index": "NIFTY CONSTRUCTION",
       "is_financial": false,
       "constituent_count": 23,
-      "included_count": 23,
-      "stale_count": 0,
-      "stale_symbols": [],
+      "included_count": 22,
+      "stale_count": 1,
+      "stale_symbols": [
+        "IRCON"
+      ],
       "fundamental_period": "Mar 2026 (annual) + TTM P&L",
       "metrics": {
-        "pe": 21.99,
-        "pb": 3.28,
-        "roe": 14.91,
-        "roce": 12.3,
+        "pe": 22.04,
+        "pb": 3.33,
+        "roe": 15.12,
+        "roce": 12.53,
         "methodology": {
           "pe": {
             "formula": "Σ MarketCap / Σ NetProfit(TTM>0)",
-            "included": 23,
+            "included": 22,
             "excluded": 0,
             "exclusions": {}
           },
           "pb": {
             "formula": "Σ MarketCap / Σ Equity (Equity = Equity Capital + Reserves)",
-            "included": 23,
+            "included": 22,
             "excluded": 0
           },
           "roe": {
             "formula": "Σ NetProfit(TTM) / Σ Equity",
-            "included": 23,
+            "included": 22,
             "excluded": 0
           },
           "roce": {
             "formula": "Σ EBIT / Σ (Equity + Borrowings); EBIT = OperatingProfit(TTM) − Depreciation(TTM)",
-            "included": 23,
+            "included": 22,
             "excluded": 0
           }
         },
-        "companies_in_pe": 23
+        "companies_in_pe": 22
       },
       "constituents": [
         {
@@ -11467,7 +11476,9 @@
           "dividend_yield": 1.82,
           "net_profit_ttm": 520.0,
           "equity": 6639.0,
-          "rank": 10
+          "rank": 10,
+          "stale": true,
+          "stale_since": "2026-10-20"
         },
         {
           "name": "Welspun Enterprises Ltd",
@@ -11789,41 +11800,41 @@
       "reference_index": "NIFTY COMMERCIAL & TRANSPORT SERVICES",
       "is_financial": false,
       "constituent_count": 26,
-      "included_count": 24,
-      "stale_count": 2,
+      "included_count": 23,
+      "stale_count": 3,
       "stale_symbols": [
-        "INOXGREEN",
-        "WEWORK"
+        "DELHIVERY",
+        "HEMIPROP",
+        "SMARTWORKS"
       ],
       "fundamental_period": "Mar 2026 (annual) + TTM P&L",
       "metrics": {
-        "pe": 29.09,
-        "pb": 4.59,
-        "roe": 11.45,
-        "roce": 8.85,
+        "pe": 28.26,
+        "pb": 4.67,
+        "roe": 12.02,
+        "roce": 9.15,
         "methodology": {
           "pe": {
             "formula": "Σ MarketCap / Σ NetProfit(TTM>0)",
             "included": 22,
-            "excluded": 2,
+            "excluded": 1,
             "exclusions": {
-              "HEMIPROP": "net profit <=0 or unavailable",
               "INDIGO": "net profit <=0 or unavailable"
             }
           },
           "pb": {
             "formula": "Σ MarketCap / Σ Equity (Equity = Equity Capital + Reserves)",
-            "included": 23,
+            "included": 22,
             "excluded": 1
           },
           "roe": {
             "formula": "Σ NetProfit(TTM) / Σ Equity",
-            "included": 23,
+            "included": 22,
             "excluded": 1
           },
           "roce": {
             "formula": "Σ EBIT / Σ (Equity + Borrowings); EBIT = OperatingProfit(TTM) − Depreciation(TTM)",
-            "included": 24,
+            "included": 23,
             "excluded": 0
           }
         },
@@ -11972,7 +11983,9 @@
           "dividend_yield": 0.0,
           "net_profit_ttm": 93.0,
           "equity": 9687.0,
-          "rank": 6
+          "rank": 6,
+          "stale": true,
+          "stale_since": "2026-10-20"
         },
         {
           "name": "Redington Ltd",
@@ -12188,9 +12201,7 @@
           "dividend_yield": 0.0,
           "net_profit_ttm": 85.0,
           "equity": 298.0,
-          "rank": 15,
-          "stale": true,
-          "stale_since": "2026-10-20"
+          "rank": 15
         },
         {
           "name": "MMTC Ltd",
@@ -12310,7 +12321,9 @@
           "dividend_yield": 0.0,
           "net_profit_ttm": 28.0,
           "equity": 530.0,
-          "rank": 20
+          "rank": 20,
+          "stale": true,
+          "stale_since": "2026-10-20"
         },
         {
           "name": "Inox Green Energy Services Ltd",
@@ -12334,9 +12347,7 @@
           "dividend_yield": 0.0,
           "net_profit_ttm": 122.0,
           "equity": 1708.0,
-          "rank": 21,
-          "stale": true,
-          "stale_since": "2026-10-20"
+          "rank": 21
         },
         {
           "name": "Quess Corp Ltd",
@@ -12432,7 +12443,9 @@
           "dividend_yield": 0.0,
           "net_profit_ttm": -12.0,
           "equity": 434.0,
-          "rank": 25
+          "rank": 25,
+          "stale": true,
+          "stale_since": "2026-10-20"
         },
         {
           "name": "AWFIS Space Solutions Ltd",
