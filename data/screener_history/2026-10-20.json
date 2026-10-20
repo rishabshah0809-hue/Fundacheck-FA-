@@ -1,12 +1,15 @@
 {
-  "generated_at": "2026-10-20T09:17:38.163997+00:00",
+  "generated_at": "2026-10-20T14:25:42.409308+00:00",
   "market_snapshot_date": "2026-10-20",
   "source": "Screener.in (public company pages)",
   "source_note": "Screener.in public data — not official exchange data, not guaranteed real-time.",
   "unique_companies": 410,
-  "fetched_ok": 410,
-  "fetch_failed": 0,
-  "failed_symbols": [],
+  "fetched_ok": 408,
+  "fetch_failed": 2,
+  "failed_symbols": [
+    "INOXGREEN",
+    "WEWORK"
+  ],
   "sectors": [
     {
       "key": "bank",
@@ -1346,7 +1349,7 @@
           "roa": null,
           "opm": 18.22,
           "npm": 16.82,
-          "debt_to_equity": -0.0,
+          "debt_to_equity": 0.0,
           "interest_coverage": null,
           "revenue_growth_yoy": 6.79,
           "eps_ttm_growth": 30.03,
@@ -11786,19 +11789,22 @@
       "reference_index": "NIFTY COMMERCIAL & TRANSPORT SERVICES",
       "is_financial": false,
       "constituent_count": 26,
-      "included_count": 26,
-      "stale_count": 0,
-      "stale_symbols": [],
+      "included_count": 24,
+      "stale_count": 2,
+      "stale_symbols": [
+        "INOXGREEN",
+        "WEWORK"
+      ],
       "fundamental_period": "Mar 2026 (annual) + TTM P&L",
       "metrics": {
-        "pe": 29.38,
-        "pb": 4.61,
-        "roe": 11.44,
-        "roce": 8.84,
+        "pe": 29.09,
+        "pb": 4.59,
+        "roe": 11.45,
+        "roce": 8.85,
         "methodology": {
           "pe": {
             "formula": "Σ MarketCap / Σ NetProfit(TTM>0)",
-            "included": 24,
+            "included": 22,
             "excluded": 2,
             "exclusions": {
               "HEMIPROP": "net profit <=0 or unavailable",
@@ -11807,21 +11813,21 @@
           },
           "pb": {
             "formula": "Σ MarketCap / Σ Equity (Equity = Equity Capital + Reserves)",
-            "included": 25,
+            "included": 23,
             "excluded": 1
           },
           "roe": {
             "formula": "Σ NetProfit(TTM) / Σ Equity",
-            "included": 25,
+            "included": 23,
             "excluded": 1
           },
           "roce": {
             "formula": "Σ EBIT / Σ (Equity + Borrowings); EBIT = OperatingProfit(TTM) − Depreciation(TTM)",
-            "included": 26,
+            "included": 24,
             "excluded": 0
           }
         },
-        "companies_in_pe": 24
+        "companies_in_pe": 22
       },
       "constituents": [
         {
@@ -12182,7 +12188,9 @@
           "dividend_yield": 0.0,
           "net_profit_ttm": 85.0,
           "equity": 298.0,
-          "rank": 15
+          "rank": 15,
+          "stale": true,
+          "stale_since": "2026-10-20"
         },
         {
           "name": "MMTC Ltd",
@@ -12326,7 +12334,9 @@
           "dividend_yield": 0.0,
           "net_profit_ttm": 122.0,
           "equity": 1708.0,
-          "rank": 21
+          "rank": 21,
+          "stale": true,
+          "stale_since": "2026-10-20"
         },
         {
           "name": "Quess Corp Ltd",
