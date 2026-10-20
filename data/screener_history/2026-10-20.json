@@ -1,14 +1,12 @@
 {
-  "generated_at": "2026-10-20T09:01:15.441117+00:00",
+  "generated_at": "2026-10-20T09:17:38.163997+00:00",
   "market_snapshot_date": "2026-10-20",
   "source": "Screener.in (public company pages)",
   "source_note": "Screener.in public data — not official exchange data, not guaranteed real-time.",
   "unique_companies": 410,
-  "fetched_ok": 409,
-  "fetch_failed": 1,
-  "failed_symbols": [
-    "SCI"
-  ],
+  "fetched_ok": 410,
+  "fetch_failed": 0,
+  "failed_symbols": [],
   "sectors": [
     {
       "key": "bank",
@@ -11788,21 +11786,19 @@
       "reference_index": "NIFTY COMMERCIAL & TRANSPORT SERVICES",
       "is_financial": false,
       "constituent_count": 26,
-      "included_count": 25,
-      "stale_count": 1,
-      "stale_symbols": [
-        "SCI"
-      ],
+      "included_count": 26,
+      "stale_count": 0,
+      "stale_symbols": [],
       "fundamental_period": "Mar 2026 (annual) + TTM P&L",
       "metrics": {
-        "pe": 30.66,
-        "pb": 4.76,
-        "roe": 11.14,
-        "roce": 8.75,
+        "pe": 29.38,
+        "pb": 4.61,
+        "roe": 11.44,
+        "roce": 8.84,
         "methodology": {
           "pe": {
             "formula": "Σ MarketCap / Σ NetProfit(TTM>0)",
-            "included": 23,
+            "included": 24,
             "excluded": 2,
             "exclusions": {
               "HEMIPROP": "net profit <=0 or unavailable",
@@ -11811,21 +11807,21 @@
           },
           "pb": {
             "formula": "Σ MarketCap / Σ Equity (Equity = Equity Capital + Reserves)",
-            "included": 24,
+            "included": 25,
             "excluded": 1
           },
           "roe": {
             "formula": "Σ NetProfit(TTM) / Σ Equity",
-            "included": 24,
+            "included": 25,
             "excluded": 1
           },
           "roce": {
             "formula": "Σ EBIT / Σ (Equity + Borrowings); EBIT = OperatingProfit(TTM) − Depreciation(TTM)",
-            "included": 25,
+            "included": 26,
             "excluded": 0
           }
         },
-        "companies_in_pe": 23
+        "companies_in_pe": 24
       },
       "constituents": [
         {
@@ -12098,7 +12094,7 @@
           "nse_url": "https://www.nseindia.com/get-quotes/equity?symbol=SCI",
           "screener_url": "https://www.screener.in/company/SCI/",
           "cmp": 276.0,
-          "market_cap": 12849.0,
+          "market_cap": 12847.0,
           "pe": 7.94,
           "pb": 1.42,
           "roe": 15.0,
@@ -12114,9 +12110,7 @@
           "dividend_yield": 2.72,
           "net_profit_ttm": 1618.0,
           "equity": 9096.0,
-          "rank": 12,
-          "stale": true,
-          "stale_since": "2026-10-19"
+          "rank": 12
         },
         {
           "name": "Blackbuck Ltd",
