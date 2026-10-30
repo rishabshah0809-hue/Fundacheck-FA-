@@ -1,15 +1,13 @@
 {
-  "generated_at": "2026-10-30T10:36:44.613690+00:00",
+  "generated_at": "2026-10-30T10:51:38.003079+00:00",
   "market_snapshot_date": "2026-10-30",
   "source": "Screener.in (public company pages)",
   "source_note": "Screener.in public data — not official exchange data, not guaranteed real-time.",
   "unique_companies": 410,
-  "fetched_ok": 407,
-  "fetch_failed": 3,
+  "fetched_ok": 409,
+  "fetch_failed": 1,
   "failed_symbols": [
-    "ICICIPRULI",
-    "INDIGO",
-    "ECLERX"
+    "ICICIPRULI"
   ],
   "sectors": [
     {
@@ -773,10 +771,10 @@
           "nse_symbol": "IIFL",
           "nse_url": "https://www.nseindia.com/get-quotes/equity?symbol=IIFL",
           "screener_url": "https://www.screener.in/company/IIFL/",
-          "cmp": 525.0,
-          "market_cap": 22408.0,
-          "pe": 9.03,
-          "pb": 1.45,
+          "cmp": 528.0,
+          "market_cap": 22536.0,
+          "pe": 9.08,
+          "pb": 1.46,
           "roe": 12.6,
           "roce": null,
           "roa": null,
@@ -2684,7 +2682,7 @@
       "stale_symbols": [],
       "fundamental_period": "Mar 2026 (annual) + TTM P&L",
       "metrics": {
-        "pe": 32.36,
+        "pe": 32.37,
         "pb": 2.16,
         "roe": 6.42,
         "roce": 6.4,
@@ -2890,7 +2888,7 @@
           "nse_url": "https://www.nseindia.com/get-quotes/equity?symbol=NETWORK18",
           "screener_url": "https://www.screener.in/company/NETWORK18/",
           "cmp": 23.7,
-          "market_cap": 3655.0,
+          "market_cap": 3651.0,
           "pe": 388.0,
           "pb": 0.74,
           "roe": 0.75,
@@ -2937,9 +2935,9 @@
           "nse_symbol": "HATHWAY",
           "nse_url": "https://www.nseindia.com/get-quotes/equity?symbol=HATHWAY",
           "screener_url": "https://www.screener.in/company/HATHWAY/",
-          "cmp": 9.04,
-          "market_cap": 1600.0,
-          "pe": 23.6,
+          "cmp": 9.07,
+          "market_cap": 1605.0,
+          "pe": 23.7,
           "pb": 0.36,
           "roe": 1.9,
           "roce": 2.62,
@@ -3494,7 +3492,7 @@
       "stale_symbols": [],
       "fundamental_period": "Mar 2026 (annual) + TTM P&L",
       "metrics": {
-        "pe": 62.18,
+        "pe": 62.17,
         "pb": 8.73,
         "roe": 14.04,
         "roce": 12.86,
@@ -3769,8 +3767,8 @@
           "nse_symbol": "YATHARTH",
           "nse_url": "https://www.nseindia.com/get-quotes/equity?symbol=YATHARTH",
           "screener_url": "https://www.screener.in/company/YATHARTH/",
-          "cmp": 929.0,
-          "market_cap": 8951.0,
+          "cmp": 928.0,
+          "market_cap": 8942.0,
           "pe": 49.4,
           "pb": 5.02,
           "roe": 10.2,
@@ -4746,7 +4744,7 @@
           "nse_url": "https://www.nseindia.com/get-quotes/equity?symbol=EXIDEIND",
           "screener_url": "https://www.screener.in/company/EXIDEIND/",
           "cmp": 336.0,
-          "market_cap": 28586.0,
+          "market_cap": 28539.0,
           "pe": 30.4,
           "pb": 2.05,
           "roe": 5.97,
@@ -5842,30 +5840,6 @@
           "rank": 11
         },
         {
-          "name": "ITC Hotels Ltd",
-          "nse_symbol": "ITCHOTELS",
-          "nse_url": "https://www.nseindia.com/get-quotes/equity?symbol=ITCHOTELS",
-          "screener_url": "https://www.screener.in/company/ITCHOTELS/",
-          "cmp": 168.0,
-          "market_cap": 34914.0,
-          "pe": 35.3,
-          "pb": 2.98,
-          "roe": 7.89,
-          "roce": 11.2,
-          "roa": 6.87,
-          "opm": 34.93,
-          "npm": 20.98,
-          "debt_to_equity": 0.01,
-          "interest_coverage": 126.22,
-          "revenue_growth_yoy": 16.26,
-          "eps_ttm_growth": 28.52,
-          "book_value": 56.4,
-          "dividend_yield": 0.59,
-          "net_profit_ttm": 939.0,
-          "equity": 11739.0,
-          "rank": 12
-        },
-        {
           "name": "Indian Railway Catering & Tourism Corporation Ltd",
           "nse_symbol": "IRCTC",
           "nse_url": "https://www.nseindia.com/get-quotes/equity?symbol=IRCTC",
@@ -5887,6 +5861,30 @@
           "dividend_yield": 2.05,
           "net_profit_ttm": 1393.0,
           "equity": 4309.0,
+          "rank": 12
+        },
+        {
+          "name": "ITC Hotels Ltd",
+          "nse_symbol": "ITCHOTELS",
+          "nse_url": "https://www.nseindia.com/get-quotes/equity?symbol=ITCHOTELS",
+          "screener_url": "https://www.screener.in/company/ITCHOTELS/",
+          "cmp": 167.0,
+          "market_cap": 34841.0,
+          "pe": 35.2,
+          "pb": 2.96,
+          "roe": 7.89,
+          "roce": 11.2,
+          "roa": 6.87,
+          "opm": 34.93,
+          "npm": 20.98,
+          "debt_to_equity": 0.01,
+          "interest_coverage": 126.22,
+          "revenue_growth_yoy": 16.26,
+          "eps_ttm_growth": 28.52,
+          "book_value": 56.4,
+          "dividend_yield": 0.59,
+          "net_profit_ttm": 939.0,
+          "equity": 11739.0,
           "rank": 13
         },
         {
@@ -5966,10 +5964,10 @@
           "nse_symbol": "EIHOTEL",
           "nse_url": "https://www.nseindia.com/get-quotes/equity?symbol=EIHOTEL",
           "screener_url": "https://www.screener.in/company/EIHOTEL/",
-          "cmp": 285.0,
-          "market_cap": 17823.0,
-          "pe": 24.5,
-          "pb": 3.38,
+          "cmp": 287.0,
+          "market_cap": 17923.0,
+          "pe": 24.7,
+          "pb": 3.41,
           "roe": 14.5,
           "roce": 20.7,
           "roa": 11.32,
@@ -6399,8 +6397,8 @@
           "nse_url": "https://www.nseindia.com/get-quotes/equity?symbol=IXIGO",
           "screener_url": "https://www.screener.in/company/IXIGO/",
           "cmp": 140.0,
-          "market_cap": 6186.0,
-          "pe": 52.1,
+          "market_cap": 6158.0,
+          "pe": 51.9,
           "pb": 2.84,
           "roe": 4.79,
           "roce": 6.14,
@@ -7830,9 +7828,9 @@
           "nse_symbol": "LLOYDSME",
           "nse_url": "https://www.nseindia.com/get-quotes/equity?symbol=LLOYDSME",
           "screener_url": "https://www.screener.in/company/LLOYDSME/",
-          "cmp": 1822.0,
-          "market_cap": 102596.0,
-          "pe": 21.5,
+          "cmp": 1824.0,
+          "market_cap": 102709.0,
+          "pe": 21.6,
           "pb": 7.41,
           "roe": 36.6,
           "roce": 27.3,
@@ -8234,7 +8232,7 @@
           "nse_url": "https://www.nseindia.com/get-quotes/equity?symbol=ACC",
           "screener_url": "https://www.screener.in/company/ACC/",
           "cmp": 1130.0,
-          "market_cap": 21220.0,
+          "market_cap": 21226.0,
           "pe": 23.1,
           "pb": 1.03,
           "roe": 10.9,
@@ -11791,44 +11789,42 @@
       "reference_index": "NIFTY COMMERCIAL & TRANSPORT SERVICES",
       "is_financial": false,
       "constituent_count": 26,
-      "included_count": 24,
-      "stale_count": 2,
-      "stale_symbols": [
-        "INDIGO",
-        "ECLERX"
-      ],
+      "included_count": 26,
+      "stale_count": 0,
+      "stale_symbols": [],
       "fundamental_period": "Mar 2026 (annual) + TTM P&L",
       "metrics": {
-        "pe": 28.9,
-        "pb": 3.57,
-        "roe": 13.46,
-        "roce": 10.9,
+        "pe": 28.68,
+        "pb": 4.38,
+        "roe": 11.39,
+        "roce": 8.72,
         "methodology": {
           "pe": {
             "formula": "Σ MarketCap / Σ NetProfit(TTM>0)",
-            "included": 23,
-            "excluded": 1,
+            "included": 24,
+            "excluded": 2,
             "exclusions": {
-              "HEMIPROP": "net profit <=0 or unavailable"
+              "HEMIPROP": "net profit <=0 or unavailable",
+              "INDIGO": "net profit <=0 or unavailable"
             }
           },
           "pb": {
             "formula": "Σ MarketCap / Σ Equity (Equity = Equity Capital + Reserves)",
-            "included": 23,
+            "included": 25,
             "excluded": 1
           },
           "roe": {
             "formula": "Σ NetProfit(TTM) / Σ Equity",
-            "included": 23,
+            "included": 25,
             "excluded": 1
           },
           "roce": {
             "formula": "Σ EBIT / Σ (Equity + Borrowings); EBIT = OperatingProfit(TTM) − Depreciation(TTM)",
-            "included": 24,
+            "included": 26,
             "excluded": 0
           }
         },
-        "companies_in_pe": 23
+        "companies_in_pe": 24
       },
       "constituents": [
         {
@@ -11860,10 +11856,10 @@
           "nse_symbol": "INDIGO",
           "nse_url": "https://www.nseindia.com/get-quotes/equity?symbol=INDIGO",
           "screener_url": "https://www.screener.in/company/INDIGO/",
-          "cmp": 4675.0,
-          "market_cap": 181502.0,
+          "cmp": 4870.0,
+          "market_cap": 188307.0,
           "pe": null,
-          "pb": 25.97,
+          "pb": 37.75,
           "roe": -27.1,
           "roce": 5.24,
           "roa": -2.77,
@@ -11873,13 +11869,11 @@
           "interest_coverage": -0.05,
           "revenue_growth_yoy": 5.15,
           "eps_ttm_growth": -132.94,
-          "book_value": 180.0,
+          "book_value": 129.0,
           "dividend_yield": 0.0,
           "net_profit_ttm": -4105.0,
           "equity": 4996.0,
-          "rank": 2,
-          "stale": true,
-          "stale_since": "2026-10-29"
+          "rank": 2
         },
         {
           "name": "GMR Airports Ltd",
@@ -12078,10 +12072,10 @@
           "nse_symbol": "ECLERX",
           "nse_url": "https://www.nseindia.com/get-quotes/equity?symbol=ECLERX",
           "screener_url": "https://www.screener.in/company/ECLERX/",
-          "cmp": 1661.0,
-          "market_cap": 15606.0,
-          "pe": 21.5,
-          "pb": 5.36,
+          "cmp": 1557.0,
+          "market_cap": 14641.0,
+          "pe": 20.2,
+          "pb": 5.02,
           "roe": 28.4,
           "roce": 34.4,
           "roa": 17.87,
@@ -12095,9 +12089,7 @@
           "dividend_yield": 0.06,
           "net_profit_ttm": 726.0,
           "equity": 2915.0,
-          "rank": 11,
-          "stale": true,
-          "stale_since": "2026-10-29"
+          "rank": 11
         },
         {
           "name": "Shipping Corporation of India Ltd",
@@ -13230,37 +13222,37 @@
       "reference_index": "NIFTY INFRASTRUCTURE",
       "is_financial": false,
       "constituent_count": 30,
-      "included_count": 29,
-      "stale_count": 1,
-      "stale_symbols": [
-        "INDIGO"
-      ],
+      "included_count": 30,
+      "stale_count": 0,
+      "stale_symbols": [],
       "fundamental_period": "Mar 2026 (annual) + TTM P&L",
       "metrics": {
         "pe": 19.59,
-        "pb": 2.51,
-        "roe": 12.79,
-        "roce": 10.43,
+        "pb": 2.56,
+        "roe": 12.63,
+        "roce": 10.24,
         "methodology": {
           "pe": {
             "formula": "Σ MarketCap / Σ NetProfit(TTM>0)",
             "included": 29,
-            "excluded": 0,
-            "exclusions": {}
+            "excluded": 1,
+            "exclusions": {
+              "INDIGO": "net profit <=0 or unavailable"
+            }
           },
           "pb": {
             "formula": "Σ MarketCap / Σ Equity (Equity = Equity Capital + Reserves)",
-            "included": 29,
+            "included": 30,
             "excluded": 0
           },
           "roe": {
             "formula": "Σ NetProfit(TTM) / Σ Equity",
-            "included": 29,
+            "included": 30,
             "excluded": 0
           },
           "roce": {
             "formula": "Σ EBIT / Σ (Equity + Borrowings); EBIT = OperatingProfit(TTM) − Depreciation(TTM)",
-            "included": 29,
+            "included": 30,
             "excluded": 0
           }
         },
@@ -13508,6 +13500,30 @@
           "rank": 10
         },
         {
+          "name": "Interglobe Aviation Ltd",
+          "nse_symbol": "INDIGO",
+          "nse_url": "https://www.nseindia.com/get-quotes/equity?symbol=INDIGO",
+          "screener_url": "https://www.screener.in/company/INDIGO/",
+          "cmp": 4870.0,
+          "market_cap": 188307.0,
+          "pe": null,
+          "pb": 37.75,
+          "roe": -27.1,
+          "roce": 5.24,
+          "roa": -2.77,
+          "opm": 12.09,
+          "npm": -4.37,
+          "debt_to_equity": 17.47,
+          "interest_coverage": -0.05,
+          "revenue_growth_yoy": 5.15,
+          "eps_ttm_growth": -132.94,
+          "book_value": 129.0,
+          "dividend_yield": 0.0,
+          "net_profit_ttm": -4105.0,
+          "equity": 4996.0,
+          "rank": 11
+        },
+        {
           "name": "Indian Oil Corporation Ltd",
           "nse_symbol": "IOC",
           "nse_url": "https://www.nseindia.com/get-quotes/equity?symbol=IOC",
@@ -13529,33 +13545,7 @@
           "dividend_yield": 6.47,
           "net_profit_ttm": 35728.0,
           "equity": 219518.0,
-          "rank": 11
-        },
-        {
-          "name": "Interglobe Aviation Ltd",
-          "nse_symbol": "INDIGO",
-          "nse_url": "https://www.nseindia.com/get-quotes/equity?symbol=INDIGO",
-          "screener_url": "https://www.screener.in/company/INDIGO/",
-          "cmp": 4675.0,
-          "market_cap": 181502.0,
-          "pe": null,
-          "pb": 25.97,
-          "roe": -27.1,
-          "roce": 5.24,
-          "roa": -2.77,
-          "opm": 12.09,
-          "npm": -4.37,
-          "debt_to_equity": 17.47,
-          "interest_coverage": -0.05,
-          "revenue_growth_yoy": 5.15,
-          "eps_ttm_growth": -132.94,
-          "book_value": 180.0,
-          "dividend_yield": 0.0,
-          "net_profit_ttm": -4105.0,
-          "equity": 4996.0,
-          "rank": 12,
-          "stale": true,
-          "stale_since": "2026-10-29"
+          "rank": 12
         },
         {
           "name": "DLF Ltd",
