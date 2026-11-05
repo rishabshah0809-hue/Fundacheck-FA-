@@ -1,21 +1,13 @@
 {
-  "generated_at": "2026-11-05T11:43:10.028054+00:00",
+  "generated_at": "2026-11-05T12:01:18.464115+00:00",
   "market_snapshot_date": "2026-11-05",
   "source": "Screener.in (public company pages)",
   "source_note": "Screener.in public data — not official exchange data, not guaranteed real-time.",
   "unique_companies": 410,
-  "fetched_ok": 401,
-  "fetch_failed": 9,
+  "fetched_ok": 409,
+  "fetch_failed": 1,
   "failed_symbols": [
-    "ICICIPRULI",
-    "HONAUT",
-    "PREMIERENE",
-    "SIEMENS",
-    "VOLTAMP",
-    "KNRCON",
-    "CONCOR",
-    "HEMIPROP",
-    "REDINGTON"
+    "ICICIPRULI"
   ],
   "sectors": [
     {
@@ -9962,44 +9954,39 @@
       "reference_index": "NIFTY CAPITAL GOODS",
       "is_financial": false,
       "constituent_count": 50,
-      "included_count": 46,
-      "stale_count": 4,
-      "stale_symbols": [
-        "HONAUT",
-        "PREMIERENE",
-        "SIEMENS",
-        "VOLTAMP"
-      ],
+      "included_count": 50,
+      "stale_count": 0,
+      "stale_symbols": [],
       "fundamental_period": "Mar 2026 (annual) + TTM P&L",
       "metrics": {
-        "pe": 41.76,
-        "pb": 8.5,
-        "roe": 20.16,
-        "roce": 18.93,
+        "pe": 41.11,
+        "pb": 8.45,
+        "roe": 20.38,
+        "roce": 18.78,
         "methodology": {
           "pe": {
             "formula": "Σ MarketCap / Σ NetProfit(TTM>0)",
-            "included": 46,
+            "included": 50,
             "excluded": 0,
             "exclusions": {}
           },
           "pb": {
             "formula": "Σ MarketCap / Σ Equity (Equity = Equity Capital + Reserves)",
-            "included": 45,
+            "included": 49,
             "excluded": 1
           },
           "roe": {
             "formula": "Σ NetProfit(TTM) / Σ Equity",
-            "included": 45,
+            "included": 49,
             "excluded": 1
           },
           "roce": {
             "formula": "Σ EBIT / Σ (Equity + Borrowings); EBIT = OperatingProfit(TTM) − Depreciation(TTM)",
-            "included": 45,
+            "included": 49,
             "excluded": 1
           }
         },
-        "companies_in_pe": 46
+        "companies_in_pe": 50
       },
       "constituents": [
         {
@@ -10175,10 +10162,10 @@
           "nse_symbol": "SIEMENS",
           "nse_url": "https://www.nseindia.com/get-quotes/equity?symbol=SIEMENS",
           "screener_url": "https://www.screener.in/company/SIEMENS/",
-          "cmp": 3509.0,
-          "market_cap": 125035.0,
-          "pe": 83.2,
-          "pb": 9.02,
+          "cmp": 3432.0,
+          "market_cap": 122012.0,
+          "pe": 81.2,
+          "pb": 8.82,
           "roe": 19.2,
           "roce": 21.4,
           "roa": 15.45,
@@ -10189,12 +10176,10 @@
           "revenue_growth_yoy": 64.04,
           "eps_ttm_growth": 1.28,
           "book_value": 389.0,
-          "dividend_yield": 0.51,
+          "dividend_yield": 0.52,
           "net_profit_ttm": 3277.0,
           "equity": 13840.0,
-          "rank": 8,
-          "stale": true,
-          "stale_since": "2026-11-04"
+          "rank": 8
         },
         {
           "name": "Polycab India Ltd",
@@ -10489,26 +10474,24 @@
           "nse_symbol": "PREMIERENE",
           "nse_url": "https://www.nseindia.com/get-quotes/equity?symbol=PREMIERENE",
           "screener_url": "https://www.screener.in/company/PREMIERENE/",
-          "cmp": 904.0,
-          "market_cap": 41088.0,
-          "pe": 24.7,
-          "pb": 9.51,
+          "cmp": 882.0,
+          "market_cap": 40077.0,
+          "pe": 22.6,
+          "pb": 7.74,
           "roe": 41.0,
           "roce": 32.7,
-          "roa": 15.44,
-          "opm": 30.04,
-          "npm": 19.77,
-          "debt_to_equity": 0.86,
-          "interest_coverage": 13.04,
+          "roa": 14.0,
+          "opm": 29.35,
+          "npm": 19.25,
+          "debt_to_equity": 0.72,
+          "interest_coverage": 13.46,
           "revenue_growth_yoy": 20.02,
           "eps_ttm_growth": 60.32,
-          "book_value": 95.1,
+          "book_value": 114.0,
           "dividend_yield": 0.11,
-          "net_profit_ttm": 1674.0,
-          "equity": 4307.0,
-          "rank": 21,
-          "stale": true,
-          "stale_since": "2026-11-04"
+          "net_profit_ttm": 1783.0,
+          "equity": 5169.0,
+          "rank": 21
         },
         {
           "name": "Thermax Ltd",
@@ -10707,10 +10690,10 @@
           "nse_symbol": "HONAUT",
           "nse_url": "https://www.nseindia.com/get-quotes/equity?symbol=HONAUT",
           "screener_url": "https://www.screener.in/company/HONAUT/",
-          "cmp": 29810.0,
-          "market_cap": 26334.0,
-          "pe": 45.9,
-          "pb": 5.65,
+          "cmp": 30320.0,
+          "market_cap": 26857.0,
+          "pe": 46.8,
+          "pb": 5.75,
           "roe": 12.6,
           "roce": 17.0,
           "roa": 8.93,
@@ -10721,12 +10704,10 @@
           "revenue_growth_yoy": 11.74,
           "eps_ttm_growth": 0.27,
           "book_value": 5274.0,
-          "dividend_yield": 0.37,
+          "dividend_yield": 0.36,
           "net_profit_ttm": 565.0,
           "equity": 4663.0,
-          "rank": 30,
-          "stale": true,
-          "stale_since": "2026-11-04"
+          "rank": 30
         },
         {
           "name": "Garden Reach Shipbuilders & Engineers Ltd",
@@ -11117,10 +11098,10 @@
           "nse_symbol": "VOLTAMP",
           "nse_url": "https://www.nseindia.com/get-quotes/equity?symbol=VOLTAMP",
           "screener_url": "https://www.screener.in/company/VOLTAMP/",
-          "cmp": 10016.0,
-          "market_cap": 10121.0,
-          "pe": 31.3,
-          "pb": 5.43,
+          "cmp": 9939.0,
+          "market_cap": 10056.0,
+          "pe": 31.1,
+          "pb": 5.39,
           "roe": 17.4,
           "roce": 23.5,
           "roa": 14.58,
@@ -11131,12 +11112,10 @@
           "revenue_growth_yoy": 11.38,
           "eps_ttm_growth": -6.15,
           "book_value": 1845.0,
-          "dividend_yield": 1.0,
+          "dividend_yield": 1.01,
           "net_profit_ttm": 323.0,
           "equity": 1867.0,
-          "rank": 47,
-          "stale": true,
-          "stale_since": "2026-11-04"
+          "rank": 47
         },
         {
           "name": "Titagarh Rail Systems Ltd",
@@ -11218,41 +11197,39 @@
       "reference_index": "NIFTY CONSTRUCTION",
       "is_financial": false,
       "constituent_count": 23,
-      "included_count": 22,
-      "stale_count": 1,
-      "stale_symbols": [
-        "KNRCON"
-      ],
+      "included_count": 23,
+      "stale_count": 0,
+      "stale_symbols": [],
       "fundamental_period": "Mar 2026 (annual) + TTM P&L",
       "metrics": {
-        "pe": 23.11,
-        "pb": 3.53,
-        "roe": 15.29,
-        "roce": 11.81,
+        "pe": 22.94,
+        "pb": 3.47,
+        "roe": 15.13,
+        "roce": 11.74,
         "methodology": {
           "pe": {
             "formula": "Σ MarketCap / Σ NetProfit(TTM>0)",
-            "included": 22,
+            "included": 23,
             "excluded": 0,
             "exclusions": {}
           },
           "pb": {
             "formula": "Σ MarketCap / Σ Equity (Equity = Equity Capital + Reserves)",
-            "included": 22,
+            "included": 23,
             "excluded": 0
           },
           "roe": {
             "formula": "Σ NetProfit(TTM) / Σ Equity",
-            "included": 22,
+            "included": 23,
             "excluded": 0
           },
           "roce": {
             "formula": "Σ EBIT / Σ (Equity + Borrowings); EBIT = OperatingProfit(TTM) − Depreciation(TTM)",
-            "included": 22,
+            "included": 23,
             "excluded": 0
           }
         },
-        "companies_in_pe": 22
+        "companies_in_pe": 23
       },
       "constituents": [
         {
@@ -11736,6 +11713,30 @@
           "rank": 20
         },
         {
+          "name": "KNR Constructions Ltd",
+          "nse_symbol": "KNRCON",
+          "nse_url": "https://www.nseindia.com/get-quotes/equity?symbol=KNRCON",
+          "screener_url": "https://www.screener.in/company/KNRCON/",
+          "cmp": 107.0,
+          "market_cap": 3013.0,
+          "pe": 8.81,
+          "pb": 0.6,
+          "roe": 8.7,
+          "roce": 10.4,
+          "roa": 4.85,
+          "opm": 23.38,
+          "npm": 14.74,
+          "debt_to_equity": 0.49,
+          "interest_coverage": 2.64,
+          "revenue_growth_yoy": -43.24,
+          "eps_ttm_growth": -56.37,
+          "book_value": 177.0,
+          "dividend_yield": 0.23,
+          "net_profit_ttm": 394.0,
+          "equity": 4972.0,
+          "rank": 21
+        },
+        {
           "name": "Ashoka Buildcon Ltd",
           "nse_symbol": "ASHOKA",
           "nse_url": "https://www.nseindia.com/get-quotes/equity?symbol=ASHOKA",
@@ -11757,33 +11758,7 @@
           "dividend_yield": 0.0,
           "net_profit_ttm": 2476.0,
           "equity": 6579.0,
-          "rank": 21
-        },
-        {
-          "name": "KNR Constructions Ltd",
-          "nse_symbol": "KNRCON",
-          "nse_url": "https://www.nseindia.com/get-quotes/equity?symbol=KNRCON",
-          "screener_url": "https://www.screener.in/company/KNRCON/",
-          "cmp": 105.0,
-          "market_cap": 2950.0,
-          "pe": 8.63,
-          "pb": 0.59,
-          "roe": 8.7,
-          "roce": 10.4,
-          "roa": 4.85,
-          "opm": 23.38,
-          "npm": 14.74,
-          "debt_to_equity": 0.49,
-          "interest_coverage": 2.64,
-          "revenue_growth_yoy": -43.24,
-          "eps_ttm_growth": -56.37,
-          "book_value": 177.0,
-          "dividend_yield": 0.24,
-          "net_profit_ttm": 394.0,
-          "equity": 4972.0,
-          "rank": 22,
-          "stale": true,
-          "stale_since": "2026-11-04"
+          "rank": 22
         },
         {
           "name": "H.G. Infra Engineering Ltd",
@@ -11817,45 +11792,42 @@
       "reference_index": "NIFTY COMMERCIAL & TRANSPORT SERVICES",
       "is_financial": false,
       "constituent_count": 26,
-      "included_count": 23,
-      "stale_count": 3,
-      "stale_symbols": [
-        "CONCOR",
-        "HEMIPROP",
-        "REDINGTON"
-      ],
+      "included_count": 26,
+      "stale_count": 0,
+      "stale_symbols": [],
       "fundamental_period": "Mar 2026 (annual) + TTM P&L",
       "metrics": {
-        "pe": 30.37,
-        "pb": 4.81,
-        "roe": 11.54,
-        "roce": 8.5,
+        "pe": 29.58,
+        "pb": 4.57,
+        "roe": 11.51,
+        "roce": 8.75,
         "methodology": {
           "pe": {
             "formula": "Σ MarketCap / Σ NetProfit(TTM>0)",
-            "included": 22,
-            "excluded": 1,
+            "included": 24,
+            "excluded": 2,
             "exclusions": {
+              "HEMIPROP": "net profit <=0 or unavailable",
               "INDIGO": "net profit <=0 or unavailable"
             }
           },
           "pb": {
             "formula": "Σ MarketCap / Σ Equity (Equity = Equity Capital + Reserves)",
-            "included": 22,
+            "included": 25,
             "excluded": 1
           },
           "roe": {
             "formula": "Σ NetProfit(TTM) / Σ Equity",
-            "included": 22,
+            "included": 25,
             "excluded": 1
           },
           "roce": {
             "formula": "Σ EBIT / Σ (Equity + Borrowings); EBIT = OperatingProfit(TTM) − Depreciation(TTM)",
-            "included": 23,
+            "included": 26,
             "excluded": 0
           }
         },
-        "companies_in_pe": 22
+        "companies_in_pe": 24
       },
       "constituents": [
         {
@@ -11959,10 +11931,10 @@
           "nse_symbol": "CONCOR",
           "nse_url": "https://www.nseindia.com/get-quotes/equity?symbol=CONCOR",
           "screener_url": "https://www.screener.in/company/CONCOR/",
-          "cmp": 425.0,
-          "market_cap": 32392.0,
-          "pe": 26.6,
-          "pb": 2.41,
+          "cmp": 441.0,
+          "market_cap": 33505.0,
+          "pe": 27.5,
+          "pb": 2.51,
           "roe": 9.81,
           "roce": 12.6,
           "roa": 7.74,
@@ -11973,12 +11945,10 @@
           "revenue_growth_yoy": 2.16,
           "eps_ttm_growth": -3.78,
           "book_value": 176.0,
-          "dividend_yield": 2.02,
+          "dividend_yield": 1.95,
           "net_profit_ttm": 1221.0,
           "equity": 13369.0,
-          "rank": 5,
-          "stale": true,
-          "stale_since": "2026-11-04"
+          "rank": 5
         },
         {
           "name": "Delhivery Ltd",
@@ -12009,10 +11979,10 @@
           "nse_symbol": "REDINGTON",
           "nse_url": "https://www.nseindia.com/get-quotes/equity?symbol=REDINGTON",
           "screener_url": "https://www.screener.in/company/REDINGTON/",
-          "cmp": 367.0,
-          "market_cap": 28663.0,
-          "pe": 14.3,
-          "pb": 2.66,
+          "cmp": 356.0,
+          "market_cap": 27874.0,
+          "pe": 13.9,
+          "pb": 2.58,
           "roe": 16.9,
           "roce": 18.4,
           "roa": 3.79,
@@ -12023,12 +11993,10 @@
           "revenue_growth_yoy": 19.96,
           "eps_ttm_growth": -7.16,
           "book_value": 138.0,
-          "dividend_yield": 1.64,
+          "dividend_yield": 1.68,
           "net_profit_ttm": 1577.0,
           "equity": 10774.0,
-          "rank": 7,
-          "stale": true,
-          "stale_since": "2026-11-04"
+          "rank": 7
         },
         {
           "name": "Great Eastern Shipping Company Ltd",
@@ -12443,10 +12411,10 @@
           "nse_symbol": "HEMIPROP",
           "nse_url": "https://www.nseindia.com/get-quotes/equity?symbol=HEMIPROP",
           "screener_url": "https://www.screener.in/company/HEMIPROP/",
-          "cmp": 111.0,
-          "market_cap": 3172.0,
+          "cmp": 112.0,
+          "market_cap": 3178.0,
           "pe": null,
-          "pb": 7.3,
+          "pb": 7.37,
           "roe": -2.7,
           "roce": -1.14,
           "roa": -1.03,
@@ -12460,9 +12428,7 @@
           "dividend_yield": 0.0,
           "net_profit_ttm": -12.0,
           "equity": 434.0,
-          "rank": 25,
-          "stale": true,
-          "stale_since": "2026-11-04"
+          "rank": 25
         },
         {
           "name": "AWFIS Space Solutions Ltd",
