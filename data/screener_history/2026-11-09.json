@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T12:19:18.304180+00:00",
+  "generated_at": "2026-11-09T12:41:21.661845+00:00",
   "market_snapshot_date": "2026-11-09",
   "source": "Screener.in (public company pages)",
   "source_note": "Screener.in public data — not official exchange data, not guaranteed real-time.",
@@ -1354,7 +1354,7 @@
           "roa": null,
           "opm": 18.74,
           "npm": 16.31,
-          "debt_to_equity": 0.0,
+          "debt_to_equity": -0.0,
           "interest_coverage": null,
           "revenue_growth_yoy": 6.79,
           "eps_ttm_growth": 30.03,
