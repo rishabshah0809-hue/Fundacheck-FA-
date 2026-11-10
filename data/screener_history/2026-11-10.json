@@ -1,13 +1,15 @@
 {
-  "generated_at": "2026-11-10T12:16:34.719324+00:00",
+  "generated_at": "2026-11-10T17:33:40.132754+00:00",
   "market_snapshot_date": "2026-11-10",
   "source": "Screener.in (public company pages)",
   "source_note": "Screener.in public data — not official exchange data, not guaranteed real-time.",
   "unique_companies": 410,
-  "fetched_ok": 409,
-  "fetch_failed": 1,
+  "fetched_ok": 407,
+  "fetch_failed": 3,
   "failed_symbols": [
-    "ICICIPRULI"
+    "ICICIPRULI",
+    "INDIGO",
+    "SCI"
   ],
   "sectors": [
     {
@@ -1354,7 +1356,7 @@
           "roa": null,
           "opm": 18.74,
           "npm": 16.31,
-          "debt_to_equity": -0.0,
+          "debt_to_equity": 0.0,
           "interest_coverage": null,
           "revenue_growth_yoy": 6.79,
           "eps_ttm_growth": 30.03,
@@ -10682,7 +10684,7 @@
           "book_value": 0.0,
           "dividend_yield": 1.36,
           "net_profit_ttm": 1315.0,
-          "equity": 0.0,
+          "equity": -0.0,
           "rank": 29
         },
         {
@@ -11792,42 +11794,44 @@
       "reference_index": "NIFTY COMMERCIAL & TRANSPORT SERVICES",
       "is_financial": false,
       "constituent_count": 26,
-      "included_count": 26,
-      "stale_count": 0,
-      "stale_symbols": [],
+      "included_count": 24,
+      "stale_count": 2,
+      "stale_symbols": [
+        "INDIGO",
+        "SCI"
+      ],
       "fundamental_period": "Mar 2026 (annual) + TTM P&L",
       "metrics": {
-        "pe": 29.26,
-        "pb": 4.57,
-        "roe": 11.73,
-        "roce": 8.81,
+        "pe": 30.89,
+        "pb": 3.83,
+        "roe": 13.63,
+        "roce": 10.99,
         "methodology": {
           "pe": {
             "formula": "Σ MarketCap / Σ NetProfit(TTM>0)",
-            "included": 24,
-            "excluded": 2,
+            "included": 23,
+            "excluded": 1,
             "exclusions": {
-              "HEMIPROP": "net profit <=0 or unavailable",
-              "INDIGO": "net profit <=0 or unavailable"
+              "HEMIPROP": "net profit <=0 or unavailable"
             }
           },
           "pb": {
             "formula": "Σ MarketCap / Σ Equity (Equity = Equity Capital + Reserves)",
-            "included": 25,
+            "included": 23,
             "excluded": 1
           },
           "roe": {
             "formula": "Σ NetProfit(TTM) / Σ Equity",
-            "included": 25,
+            "included": 23,
             "excluded": 1
           },
           "roce": {
             "formula": "Σ EBIT / Σ (Equity + Borrowings); EBIT = OperatingProfit(TTM) − Depreciation(TTM)",
-            "included": 26,
+            "included": 24,
             "excluded": 0
           }
         },
-        "companies_in_pe": 24
+        "companies_in_pe": 23
       },
       "constituents": [
         {
@@ -11876,7 +11880,9 @@
           "dividend_yield": 0.0,
           "net_profit_ttm": -4105.0,
           "equity": 4996.0,
-          "rank": 2
+          "rank": 2,
+          "stale": true,
+          "stale_since": "2026-11-10"
         },
         {
           "name": "GMR Airports Ltd",
@@ -12116,7 +12122,9 @@
           "dividend_yield": 2.87,
           "net_profit_ttm": 2007.0,
           "equity": 10305.0,
-          "rank": 12
+          "rank": 12,
+          "stale": true,
+          "stale_since": "2026-11-10"
         },
         {
           "name": "Blue Dart Express Ltd",
@@ -13225,37 +13233,37 @@
       "reference_index": "NIFTY INFRASTRUCTURE",
       "is_financial": false,
       "constituent_count": 30,
-      "included_count": 30,
-      "stale_count": 0,
-      "stale_symbols": [],
+      "included_count": 29,
+      "stale_count": 1,
+      "stale_symbols": [
+        "INDIGO"
+      ],
       "fundamental_period": "Mar 2026 (annual) + TTM P&L",
       "metrics": {
         "pe": 19.32,
-        "pb": 2.66,
-        "roe": 13.26,
-        "roce": 10.79,
+        "pb": 2.59,
+        "roe": 13.42,
+        "roce": 10.98,
         "methodology": {
           "pe": {
             "formula": "Σ MarketCap / Σ NetProfit(TTM>0)",
             "included": 29,
-            "excluded": 1,
-            "exclusions": {
-              "INDIGO": "net profit <=0 or unavailable"
-            }
+            "excluded": 0,
+            "exclusions": {}
           },
           "pb": {
             "formula": "Σ MarketCap / Σ Equity (Equity = Equity Capital + Reserves)",
-            "included": 30,
+            "included": 29,
             "excluded": 0
           },
           "roe": {
             "formula": "Σ NetProfit(TTM) / Σ Equity",
-            "included": 30,
+            "included": 29,
             "excluded": 0
           },
           "roce": {
             "formula": "Σ EBIT / Σ (Equity + Borrowings); EBIT = OperatingProfit(TTM) − Depreciation(TTM)",
-            "included": 30,
+            "included": 29,
             "excluded": 0
           }
         },
@@ -13524,7 +13532,9 @@
           "dividend_yield": 0.0,
           "net_profit_ttm": -4105.0,
           "equity": 4996.0,
-          "rank": 11
+          "rank": 11,
+          "stale": true,
+          "stale_since": "2026-11-10"
         },
         {
           "name": "Indian Oil Corporation Ltd",
