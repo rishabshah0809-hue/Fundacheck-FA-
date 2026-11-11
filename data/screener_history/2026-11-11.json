@@ -1,23 +1,18 @@
 {
-  "generated_at": "2026-11-11T11:49:24.996129+00:00",
+  "generated_at": "2026-11-11T17:46:15.860406+00:00",
   "market_snapshot_date": "2026-11-11",
   "source": "Screener.in (public company pages)",
   "source_note": "Screener.in public data — not official exchange data, not guaranteed real-time.",
   "unique_companies": 410,
-  "fetched_ok": 399,
-  "fetch_failed": 11,
+  "fetched_ok": 404,
+  "fetch_failed": 6,
   "failed_symbols": [
     "ICICIPRULI",
-    "POWERINDIA",
-    "HONAUT",
-    "PRAJIND",
-    "ENRIN",
+    "TRITURBINE",
     "VOLTAMP",
-    "ASHOKA",
-    "RITES",
-    "CMSINFO",
+    "KPIL",
     "HEMIPROP",
-    "QUESS"
+    "SMARTWORKS"
   ],
   "sectors": [
     {
@@ -2426,7 +2421,7 @@
           "market_cap": 104963.0,
           "pe": 14.8,
           "pb": 2.65,
-          "roe": 18.6,
+          "roe": 19.1,
           "roce": 19.5,
           "roa": 9.77,
           "opm": 54.11,
@@ -3711,7 +3706,7 @@
           "market_cap": 17569.0,
           "pe": 98.1,
           "pb": 7.85,
-          "roe": 5.99,
+          "roe": 6.41,
           "roce": 10.9,
           "roa": 4.87,
           "opm": 27.59,
@@ -5596,7 +5591,7 @@
           "market_cap": 348906.0,
           "pe": 708.0,
           "pb": 11.14,
-          "roe": 0.38,
+          "roe": 0.94,
           "roce": 2.48,
           "roa": 1.09,
           "opm": 2.82,
@@ -5668,7 +5663,7 @@
           "market_cap": 125829.0,
           "pe": 161.0,
           "pb": 13.49,
-          "roe": 6.33,
+          "roe": 6.55,
           "roce": 8.08,
           "roa": 5.08,
           "opm": 21.28,
@@ -6750,7 +6745,7 @@
           "market_cap": 348906.0,
           "pe": 708.0,
           "pb": 11.14,
-          "roe": 0.38,
+          "roe": 0.94,
           "roce": 2.48,
           "roa": 1.09,
           "opm": 2.82,
@@ -6822,7 +6817,7 @@
           "market_cap": 125829.0,
           "pe": 161.0,
           "pb": 13.49,
-          "roe": 6.33,
+          "roe": 6.55,
           "roce": 8.08,
           "roa": 5.08,
           "opm": 21.28,
@@ -9419,10 +9414,10 @@
       "stale_symbols": [],
       "fundamental_period": "Mar 2026 (annual) + TTM P&L",
       "metrics": {
-        "pe": 19.88,
+        "pe": 19.79,
         "pb": 2.7,
-        "roe": 13.4,
-        "roce": 7.46,
+        "roe": 13.46,
+        "roce": 7.48,
         "methodology": {
           "pe": {
             "formula": "Σ MarketCap / Σ NetProfit(TTM>0)",
@@ -9579,20 +9574,20 @@
           "screener_url": "https://www.screener.in/company/TATAPOWER/",
           "cmp": 360.0,
           "market_cap": 115192.0,
-          "pe": 29.4,
+          "pe": 26.9,
           "pb": 2.9,
           "roe": 10.2,
           "roce": 10.5,
-          "roa": 3.01,
-          "opm": 20.2,
-          "npm": 8.28,
+          "roa": 3.24,
+          "opm": 19.52,
+          "npm": 8.39,
           "debt_to_equity": 1.93,
-          "interest_coverage": 1.47,
+          "interest_coverage": 1.49,
           "revenue_growth_yoy": -4.66,
           "eps_ttm_growth": -5.63,
           "book_value": 124.0,
           "dividend_yield": 0.69,
-          "net_profit_ttm": 5256.0,
+          "net_profit_ttm": 5663.0,
           "equity": 39468.0,
           "rank": 6
         },
@@ -9964,45 +9959,42 @@
       "reference_index": "NIFTY CAPITAL GOODS",
       "is_financial": false,
       "constituent_count": 50,
-      "included_count": 45,
-      "stale_count": 5,
+      "included_count": 48,
+      "stale_count": 2,
       "stale_symbols": [
-        "POWERINDIA",
-        "HONAUT",
-        "PRAJIND",
-        "ENRIN",
+        "TRITURBINE",
         "VOLTAMP"
       ],
       "fundamental_period": "Mar 2026 (annual) + TTM P&L",
       "metrics": {
-        "pe": 39.84,
-        "pb": 8.11,
-        "roe": 20.17,
-        "roce": 18.37,
+        "pe": 41.63,
+        "pb": 8.47,
+        "roe": 20.16,
+        "roce": 18.52,
         "methodology": {
           "pe": {
             "formula": "Σ MarketCap / Σ NetProfit(TTM>0)",
-            "included": 45,
+            "included": 48,
             "excluded": 0,
             "exclusions": {}
           },
           "pb": {
             "formula": "Σ MarketCap / Σ Equity (Equity = Equity Capital + Reserves)",
-            "included": 44,
+            "included": 47,
             "excluded": 1
           },
           "roe": {
             "formula": "Σ NetProfit(TTM) / Σ Equity",
-            "included": 44,
+            "included": 47,
             "excluded": 1
           },
           "roce": {
             "formula": "Σ EBIT / Σ (Equity + Borrowings); EBIT = OperatingProfit(TTM) − Depreciation(TTM)",
-            "included": 44,
+            "included": 47,
             "excluded": 1
           }
         },
-        "companies_in_pe": 45
+        "companies_in_pe": 48
       },
       "constituents": [
         {
@@ -10195,9 +10187,7 @@
           "dividend_yield": 0.03,
           "net_profit_ttm": 1150.0,
           "equity": 5176.0,
-          "rank": 8,
-          "stale": true,
-          "stale_since": "2026-11-11"
+          "rank": 8
         },
         {
           "name": "Polycab India Ltd",
@@ -10293,9 +10283,7 @@
           "dividend_yield": 0.14,
           "net_profit_ttm": 1488.0,
           "equity": 4812.0,
-          "rank": 12,
-          "stale": true,
-          "stale_since": "2026-11-11"
+          "rank": 12
         },
         {
           "name": "Ashok Leyland Ltd",
@@ -10727,9 +10715,7 @@
           "dividend_yield": 0.36,
           "net_profit_ttm": 565.0,
           "equity": 4663.0,
-          "rank": 30,
-          "stale": true,
-          "stale_since": "2026-11-11"
+          "rank": 30
         },
         {
           "name": "Garden Reach Shipbuilders & Engineers Ltd",
@@ -10738,21 +10724,21 @@
           "screener_url": "https://www.screener.in/company/GRSE/",
           "cmp": 2225.0,
           "market_cap": 25483.0,
-          "pe": 31.8,
-          "pb": 9.72,
+          "pe": 31.1,
+          "pb": 8.79,
           "roe": 31.6,
           "roce": 42.8,
-          "roa": 7.52,
-          "opm": 11.1,
-          "npm": 10.67,
+          "roa": 8.9,
+          "opm": 11.39,
+          "npm": 10.7,
           "debt_to_equity": 0.01,
-          "interest_coverage": 55.86,
+          "interest_coverage": 43.11,
           "revenue_growth_yoy": 37.94,
           "eps_ttm_growth": 41.81,
-          "book_value": 229.0,
+          "book_value": 253.0,
           "dividend_yield": 0.88,
-          "net_profit_ttm": 801.0,
-          "equity": 2627.0,
+          "net_profit_ttm": 819.0,
+          "equity": 2897.0,
           "rank": 31
         },
         {
@@ -11065,7 +11051,9 @@
           "dividend_yield": 0.83,
           "net_profit_ttm": 336.0,
           "equity": 1446.0,
-          "rank": 44
+          "rank": 44,
+          "stale": true,
+          "stale_since": "2026-11-11"
         },
         {
           "name": "Usha Martin Ltd",
@@ -11211,9 +11199,7 @@
           "dividend_yield": 1.38,
           "net_profit_ttm": 34.0,
           "equity": 1278.0,
-          "rank": 50,
-          "stale": true,
-          "stale_since": "2026-11-11"
+          "rank": 50
         }
       ]
     },
@@ -11223,42 +11209,41 @@
       "reference_index": "NIFTY CONSTRUCTION",
       "is_financial": false,
       "constituent_count": 23,
-      "included_count": 21,
-      "stale_count": 2,
+      "included_count": 22,
+      "stale_count": 1,
       "stale_symbols": [
-        "ASHOKA",
-        "RITES"
+        "KPIL"
       ],
       "fundamental_period": "Mar 2026 (annual) + TTM P&L",
       "metrics": {
-        "pe": 25.31,
-        "pb": 3.66,
-        "roe": 14.46,
-        "roce": 11.66,
+        "pe": 23.87,
+        "pb": 3.6,
+        "roe": 15.08,
+        "roce": 11.6,
         "methodology": {
           "pe": {
             "formula": "Σ MarketCap / Σ NetProfit(TTM>0)",
-            "included": 21,
+            "included": 22,
             "excluded": 0,
             "exclusions": {}
           },
           "pb": {
             "formula": "Σ MarketCap / Σ Equity (Equity = Equity Capital + Reserves)",
-            "included": 21,
+            "included": 22,
             "excluded": 0
           },
           "roe": {
             "formula": "Σ NetProfit(TTM) / Σ Equity",
-            "included": 21,
+            "included": 22,
             "excluded": 0
           },
           "roce": {
             "formula": "Σ EBIT / Σ (Equity + Borrowings); EBIT = OperatingProfit(TTM) − Depreciation(TTM)",
-            "included": 21,
+            "included": 22,
             "excluded": 0
           }
         },
-        "companies_in_pe": 21
+        "companies_in_pe": 22
       },
       "constituents": [
         {
@@ -11355,7 +11340,9 @@
           "dividend_yield": 0.81,
           "net_profit_ttm": 1183.0,
           "equity": 8490.0,
-          "rank": 4
+          "rank": 4,
+          "stale": true,
+          "stale_since": "2026-11-11"
         },
         {
           "name": "IRB Infrastructure Developers Ltd",
@@ -11523,9 +11510,7 @@
           "dividend_yield": 3.95,
           "net_profit_ttm": 449.0,
           "equity": 2659.0,
-          "rank": 11,
-          "stale": true,
-          "stale_since": "2026-11-11"
+          "rank": 11
         },
         {
           "name": "KEC International Ltd",
@@ -11606,21 +11591,21 @@
           "screener_url": "https://www.screener.in/company/POWERMECH/",
           "cmp": 2394.0,
           "market_cap": 7574.0,
-          "pe": 19.4,
-          "pb": 3.0,
+          "pe": 18.9,
+          "pb": 2.83,
           "roe": 15.4,
           "roce": 21.7,
-          "roa": 7.51,
-          "opm": 10.94,
-          "npm": 6.57,
-          "debt_to_equity": 0.26,
-          "interest_coverage": 5.47,
+          "roa": 6.89,
+          "opm": 10.78,
+          "npm": 6.36,
+          "debt_to_equity": 0.44,
+          "interest_coverage": 5.42,
           "revenue_growth_yoy": 15.82,
           "eps_ttm_growth": 11.5,
-          "book_value": 797.0,
+          "book_value": 846.0,
           "dividend_yield": 0.06,
-          "net_profit_ttm": 420.0,
-          "equity": 2519.0,
+          "net_profit_ttm": 430.0,
+          "equity": 2676.0,
           "rank": 15
         },
         {
@@ -11765,9 +11750,7 @@
           "dividend_yield": 0.0,
           "net_profit_ttm": 2266.0,
           "equity": 6588.0,
-          "rank": 21,
-          "stale": true,
-          "stale_since": "2026-11-11"
+          "rank": 21
         },
         {
           "name": "KNR Constructions Ltd",
@@ -11802,7 +11785,7 @@
           "market_cap": 2707.0,
           "pe": 9.44,
           "pb": 0.82,
-          "roe": 8.52,
+          "roe": 9.61,
           "roce": 11.3,
           "roa": 2.11,
           "opm": 22.33,
@@ -11825,23 +11808,22 @@
       "reference_index": "NIFTY COMMERCIAL & TRANSPORT SERVICES",
       "is_financial": false,
       "constituent_count": 26,
-      "included_count": 23,
-      "stale_count": 3,
+      "included_count": 24,
+      "stale_count": 2,
       "stale_symbols": [
-        "CMSINFO",
         "HEMIPROP",
-        "QUESS"
+        "SMARTWORKS"
       ],
       "fundamental_period": "Mar 2026 (annual) + TTM P&L",
       "metrics": {
-        "pe": 29.64,
-        "pb": 4.63,
-        "roe": 11.61,
-        "roce": 8.75,
+        "pe": 29.24,
+        "pb": 4.58,
+        "roe": 11.69,
+        "roce": 8.86,
         "methodology": {
           "pe": {
             "formula": "Σ MarketCap / Σ NetProfit(TTM>0)",
-            "included": 22,
+            "included": 23,
             "excluded": 1,
             "exclusions": {
               "INDIGO": "net profit <=0 or unavailable"
@@ -11849,21 +11831,21 @@
           },
           "pb": {
             "formula": "Σ MarketCap / Σ Equity (Equity = Equity Capital + Reserves)",
-            "included": 22,
+            "included": 23,
             "excluded": 1
           },
           "roe": {
             "formula": "Σ NetProfit(TTM) / Σ Equity",
-            "included": 22,
+            "included": 23,
             "excluded": 1
           },
           "roce": {
             "formula": "Σ EBIT / Σ (Equity + Borrowings); EBIT = OperatingProfit(TTM) − Depreciation(TTM)",
-            "included": 23,
+            "included": 24,
             "excluded": 0
           }
         },
-        "companies_in_pe": 22
+        "companies_in_pe": 23
       },
       "constituents": [
         {
@@ -12320,7 +12302,9 @@
           "dividend_yield": 0.0,
           "net_profit_ttm": 57.0,
           "equity": 571.0,
-          "rank": 19
+          "rank": 19,
+          "stale": true,
+          "stale_since": "2026-11-11"
         },
         {
           "name": "TVS Supply Chain Solutions Ltd",
@@ -12368,9 +12352,7 @@
           "dividend_yield": 2.27,
           "net_profit_ttm": 276.0,
           "equity": 1183.0,
-          "rank": 21,
-          "stale": true,
-          "stale_since": "2026-11-11"
+          "rank": 21
         },
         {
           "name": "Inox Green Energy Services Ltd",
@@ -12381,7 +12363,7 @@
           "market_cap": 4963.0,
           "pe": 40.5,
           "pb": 2.78,
-          "roe": 5.13,
+          "roe": 5.35,
           "roce": 8.11,
           "roa": 5.86,
           "opm": 8.7,
@@ -12442,9 +12424,7 @@
           "dividend_yield": 2.42,
           "net_profit_ttm": 293.0,
           "equity": 2433.0,
-          "rank": 24,
-          "stale": true,
-          "stale_since": "2026-11-11"
+          "rank": 24
         },
         {
           "name": "Hemisphere Properties India Ltd",
@@ -12509,9 +12489,9 @@
       "stale_symbols": [],
       "fundamental_period": "Mar 2026 (annual) + TTM P&L",
       "metrics": {
-        "pe": 14.05,
+        "pe": 14.03,
         "pb": 2.03,
-        "roe": 14.47,
+        "roe": 14.49,
         "roce": 11.06,
         "methodology": {
           "pe": {
@@ -12930,20 +12910,20 @@
           "screener_url": "https://www.screener.in/company/TATAPOWER/",
           "cmp": 360.0,
           "market_cap": 115192.0,
-          "pe": 29.4,
+          "pe": 26.9,
           "pb": 2.9,
           "roe": 10.2,
           "roce": 10.5,
-          "roa": 3.01,
-          "opm": 20.2,
-          "npm": 8.28,
+          "roa": 3.24,
+          "opm": 19.52,
+          "npm": 8.39,
           "debt_to_equity": 1.93,
-          "interest_coverage": 1.47,
+          "interest_coverage": 1.49,
           "revenue_growth_yoy": -4.66,
           "eps_ttm_growth": -5.63,
           "book_value": 124.0,
           "dividend_yield": 0.69,
-          "net_profit_ttm": 5256.0,
+          "net_profit_ttm": 5663.0,
           "equity": 39468.0,
           "rank": 17
         },
@@ -13272,9 +13252,9 @@
       "stale_symbols": [],
       "fundamental_period": "Mar 2026 (annual) + TTM P&L",
       "metrics": {
-        "pe": 19.48,
+        "pe": 19.46,
         "pb": 2.68,
-        "roe": 13.26,
+        "roe": 13.27,
         "roce": 10.79,
         "methodology": {
           "pe": {
@@ -13791,20 +13771,20 @@
           "screener_url": "https://www.screener.in/company/TATAPOWER/",
           "cmp": 360.0,
           "market_cap": 115192.0,
-          "pe": 29.4,
+          "pe": 26.9,
           "pb": 2.9,
           "roe": 10.2,
           "roce": 10.5,
-          "roa": 3.01,
-          "opm": 20.2,
-          "npm": 8.28,
+          "roa": 3.24,
+          "opm": 19.52,
+          "npm": 8.39,
           "debt_to_equity": 1.93,
-          "interest_coverage": 1.47,
+          "interest_coverage": 1.49,
           "revenue_growth_yoy": -4.66,
           "eps_ttm_growth": -5.63,
           "book_value": 124.0,
           "dividend_yield": 0.69,
-          "net_profit_ttm": 5256.0,
+          "net_profit_ttm": 5663.0,
           "equity": 39468.0,
           "rank": 21
         },
@@ -13817,7 +13797,7 @@
           "market_cap": 104963.0,
           "pe": 14.8,
           "pb": 2.65,
-          "roe": 18.6,
+          "roe": 19.1,
           "roce": 19.5,
           "roa": 9.77,
           "opm": 54.11,
