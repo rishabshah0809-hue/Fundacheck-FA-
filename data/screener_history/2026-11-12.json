@@ -1,19 +1,13 @@
 {
-  "generated_at": "2026-11-12T12:01:29.692724+00:00",
+  "generated_at": "2026-11-12T12:21:09.649413+00:00",
   "market_snapshot_date": "2026-11-12",
   "source": "Screener.in (public company pages)",
   "source_note": "Screener.in public data — not official exchange data, not guaranteed real-time.",
   "unique_companies": 410,
-  "fetched_ok": 403,
-  "fetch_failed": 7,
+  "fetched_ok": 409,
+  "fetch_failed": 1,
   "failed_symbols": [
-    "ICICIPRULI",
-    "SIEMENS",
-    "VOLTAMP",
-    "CEMPRO",
-    "WELENT",
-    "HEMIPROP",
-    "SMARTWORKS"
+    "ICICIPRULI"
   ],
   "sectors": [
     {
@@ -9960,42 +9954,39 @@
       "reference_index": "NIFTY CAPITAL GOODS",
       "is_financial": false,
       "constituent_count": 50,
-      "included_count": 48,
-      "stale_count": 2,
-      "stale_symbols": [
-        "SIEMENS",
-        "VOLTAMP"
-      ],
+      "included_count": 50,
+      "stale_count": 0,
+      "stale_symbols": [],
       "fundamental_period": "Mar 2026 (annual) + TTM P&L",
       "metrics": {
-        "pe": 41.89,
-        "pb": 8.28,
-        "roe": 19.77,
-        "roce": 18.54,
+        "pe": 41.75,
+        "pb": 8.27,
+        "roe": 19.8,
+        "roce": 18.26,
         "methodology": {
           "pe": {
             "formula": "Σ MarketCap / Σ NetProfit(TTM>0)",
-            "included": 48,
+            "included": 50,
             "excluded": 0,
             "exclusions": {}
           },
           "pb": {
             "formula": "Σ MarketCap / Σ Equity (Equity = Equity Capital + Reserves)",
-            "included": 48,
+            "included": 50,
             "excluded": 0
           },
           "roe": {
             "formula": "Σ NetProfit(TTM) / Σ Equity",
-            "included": 48,
+            "included": 50,
             "excluded": 0
           },
           "roce": {
             "formula": "Σ EBIT / Σ (Equity + Borrowings); EBIT = OperatingProfit(TTM) − Depreciation(TTM)",
-            "included": 48,
+            "included": 50,
             "excluded": 0
           }
         },
-        "companies_in_pe": 48
+        "companies_in_pe": 50
       },
       "constituents": [
         {
@@ -10123,10 +10114,10 @@
           "nse_symbol": "SIEMENS",
           "nse_url": "https://www.nseindia.com/get-quotes/equity?symbol=SIEMENS",
           "screener_url": "https://www.screener.in/company/SIEMENS/",
-          "cmp": 3690.0,
-          "market_cap": 131751.0,
-          "pe": 86.3,
-          "pb": 8.31,
+          "cmp": 3671.0,
+          "market_cap": 131012.0,
+          "pe": 85.8,
+          "pb": 8.27,
           "roe": 19.2,
           "roce": 21.4,
           "roa": 13.98,
@@ -10140,9 +10131,7 @@
           "dividend_yield": 0.49,
           "net_profit_ttm": 3296.0,
           "equity": 15800.0,
-          "rank": 6,
-          "stale": true,
-          "stale_since": "2026-11-11"
+          "rank": 6
         },
         {
           "name": "CG Power & Industrial Solutions Ltd",
@@ -11105,32 +11094,6 @@
           "rank": 46
         },
         {
-          "name": "Voltamp Transformers Ltd",
-          "nse_symbol": "VOLTAMP",
-          "nse_url": "https://www.nseindia.com/get-quotes/equity?symbol=VOLTAMP",
-          "screener_url": "https://www.screener.in/company/VOLTAMP/",
-          "cmp": 9792.0,
-          "market_cap": 9914.0,
-          "pe": 30.7,
-          "pb": 5.31,
-          "roe": 17.4,
-          "roce": 23.5,
-          "roa": 14.58,
-          "opm": 15.15,
-          "npm": 13.05,
-          "debt_to_equity": 0.0,
-          "interest_coverage": 360.0,
-          "revenue_growth_yoy": 11.38,
-          "eps_ttm_growth": -6.15,
-          "book_value": 1845.0,
-          "dividend_yield": 1.02,
-          "net_profit_ttm": 323.0,
-          "equity": 1867.0,
-          "rank": 47,
-          "stale": true,
-          "stale_since": "2026-11-11"
-        },
-        {
           "name": "Titagarh Rail Systems Ltd",
           "nse_symbol": "TITAGARH",
           "nse_url": "https://www.nseindia.com/get-quotes/equity?symbol=TITAGARH",
@@ -11152,6 +11115,30 @@
           "dividend_yield": 0.14,
           "net_profit_ttm": 215.0,
           "equity": 2573.0,
+          "rank": 47
+        },
+        {
+          "name": "Voltamp Transformers Ltd",
+          "nse_symbol": "VOLTAMP",
+          "nse_url": "https://www.nseindia.com/get-quotes/equity?symbol=VOLTAMP",
+          "screener_url": "https://www.screener.in/company/VOLTAMP/",
+          "cmp": 9722.0,
+          "market_cap": 9830.0,
+          "pe": 30.4,
+          "pb": 5.27,
+          "roe": 17.4,
+          "roce": 23.5,
+          "roa": 14.58,
+          "opm": 15.15,
+          "npm": 13.05,
+          "debt_to_equity": 0.0,
+          "interest_coverage": 360.0,
+          "revenue_growth_yoy": 11.38,
+          "eps_ttm_growth": -6.15,
+          "book_value": 1845.0,
+          "dividend_yield": 1.03,
+          "net_profit_ttm": 323.0,
+          "equity": 1867.0,
           "rank": 48
         },
         {
@@ -11210,42 +11197,39 @@
       "reference_index": "NIFTY CONSTRUCTION",
       "is_financial": false,
       "constituent_count": 23,
-      "included_count": 21,
-      "stale_count": 2,
-      "stale_symbols": [
-        "CEMPRO",
-        "WELENT"
-      ],
+      "included_count": 23,
+      "stale_count": 0,
+      "stale_symbols": [],
       "fundamental_period": "Mar 2026 (annual) + TTM P&L",
       "metrics": {
-        "pe": 23.32,
-        "pb": 3.48,
-        "roe": 14.92,
-        "roce": 11.52,
+        "pe": 23.52,
+        "pb": 3.54,
+        "roe": 15.04,
+        "roce": 11.7,
         "methodology": {
           "pe": {
             "formula": "Σ MarketCap / Σ NetProfit(TTM>0)",
-            "included": 21,
+            "included": 23,
             "excluded": 0,
             "exclusions": {}
           },
           "pb": {
             "formula": "Σ MarketCap / Σ Equity (Equity = Equity Capital + Reserves)",
-            "included": 21,
+            "included": 23,
             "excluded": 0
           },
           "roe": {
             "formula": "Σ NetProfit(TTM) / Σ Equity",
-            "included": 21,
+            "included": 23,
             "excluded": 0
           },
           "roce": {
             "formula": "Σ EBIT / Σ (Equity + Borrowings); EBIT = OperatingProfit(TTM) − Depreciation(TTM)",
-            "included": 21,
+            "included": 23,
             "excluded": 0
           }
         },
-        "companies_in_pe": 21
+        "companies_in_pe": 23
       },
       "constituents": [
         {
@@ -11301,10 +11285,10 @@
           "nse_symbol": "CEMPRO",
           "nse_url": "https://www.nseindia.com/get-quotes/equity?symbol=CEMPRO",
           "screener_url": "https://www.screener.in/company/CEMPRO/",
-          "cmp": 1318.0,
-          "market_cap": 24300.0,
-          "pe": 38.9,
-          "pb": 8.67,
+          "cmp": 1326.0,
+          "market_cap": 24443.0,
+          "pe": 39.1,
+          "pb": 8.72,
           "roe": 27.8,
           "roce": 32.8,
           "roa": 8.25,
@@ -11318,9 +11302,7 @@
           "dividend_yield": 0.23,
           "net_profit_ttm": 624.0,
           "equity": 2619.0,
-          "rank": 3,
-          "stale": true,
-          "stale_since": "2026-11-11"
+          "rank": 3
         },
         {
           "name": "Kalpataru Projects International Ltd",
@@ -11471,10 +11453,10 @@
           "nse_symbol": "WELENT",
           "nse_url": "https://www.nseindia.com/get-quotes/equity?symbol=WELENT",
           "screener_url": "https://www.screener.in/company/WELENT/",
-          "cmp": 699.0,
-          "market_cap": 9669.0,
-          "pe": 17.2,
-          "pb": 2.89,
+          "cmp": 709.0,
+          "market_cap": 9822.0,
+          "pe": 17.5,
+          "pb": 2.93,
           "roe": 13.6,
           "roce": 16.7,
           "roa": 7.05,
@@ -11485,12 +11467,10 @@
           "revenue_growth_yoy": -2.17,
           "eps_ttm_growth": 8.5,
           "book_value": 242.0,
-          "dividend_yield": 0.43,
+          "dividend_yield": 0.42,
           "net_profit_ttm": 545.0,
           "equity": 3349.0,
-          "rank": 10,
-          "stale": true,
-          "stale_since": "2026-11-11"
+          "rank": 10
         },
         {
           "name": "Rites Ltd",
@@ -11812,44 +11792,42 @@
       "reference_index": "NIFTY COMMERCIAL & TRANSPORT SERVICES",
       "is_financial": false,
       "constituent_count": 26,
-      "included_count": 24,
-      "stale_count": 2,
-      "stale_symbols": [
-        "HEMIPROP",
-        "SMARTWORKS"
-      ],
+      "included_count": 26,
+      "stale_count": 0,
+      "stale_symbols": [],
       "fundamental_period": "Mar 2026 (annual) + TTM P&L",
       "metrics": {
-        "pe": 29.37,
-        "pb": 4.6,
-        "roe": 11.69,
-        "roce": 8.86,
+        "pe": 29.51,
+        "pb": 4.62,
+        "roe": 11.65,
+        "roce": 8.81,
         "methodology": {
           "pe": {
             "formula": "Σ MarketCap / Σ NetProfit(TTM>0)",
-            "included": 23,
-            "excluded": 1,
+            "included": 24,
+            "excluded": 2,
             "exclusions": {
+              "HEMIPROP": "net profit <=0 or unavailable",
               "INDIGO": "net profit <=0 or unavailable"
             }
           },
           "pb": {
             "formula": "Σ MarketCap / Σ Equity (Equity = Equity Capital + Reserves)",
-            "included": 23,
+            "included": 25,
             "excluded": 1
           },
           "roe": {
             "formula": "Σ NetProfit(TTM) / Σ Equity",
-            "included": 23,
+            "included": 25,
             "excluded": 1
           },
           "roce": {
             "formula": "Σ EBIT / Σ (Equity + Borrowings); EBIT = OperatingProfit(TTM) − Depreciation(TTM)",
-            "included": 24,
+            "included": 26,
             "excluded": 0
           }
         },
-        "companies_in_pe": 23
+        "companies_in_pe": 24
       },
       "constituents": [
         {
@@ -12289,10 +12267,10 @@
           "nse_symbol": "SMARTWORKS",
           "nse_url": "https://www.nseindia.com/get-quotes/equity?symbol=SMARTWORKS",
           "screener_url": "https://www.screener.in/company/SMARTWORKS/",
-          "cmp": 511.0,
-          "market_cap": 5836.0,
-          "pe": 103.0,
-          "pb": 10.24,
+          "cmp": 521.0,
+          "market_cap": 5951.0,
+          "pe": 105.0,
+          "pb": 10.44,
           "roe": 3.14,
           "roce": 8.29,
           "roa": 0.74,
@@ -12306,9 +12284,7 @@
           "dividend_yield": 0.0,
           "net_profit_ttm": 57.0,
           "equity": 571.0,
-          "rank": 19,
-          "stale": true,
-          "stale_since": "2026-11-11"
+          "rank": 19
         },
         {
           "name": "TVS Supply Chain Solutions Ltd",
@@ -12435,10 +12411,10 @@
           "nse_symbol": "HEMIPROP",
           "nse_url": "https://www.nseindia.com/get-quotes/equity?symbol=HEMIPROP",
           "screener_url": "https://www.screener.in/company/HEMIPROP/",
-          "cmp": 114.0,
-          "market_cap": 3237.0,
+          "cmp": 117.0,
+          "market_cap": 3336.0,
           "pe": null,
-          "pb": 7.6,
+          "pb": 7.8,
           "roe": -2.7,
           "roce": -1.14,
           "roa": -1.01,
@@ -12452,9 +12428,7 @@
           "dividend_yield": 0.0,
           "net_profit_ttm": -12.0,
           "equity": 427.0,
-          "rank": 25,
-          "stale": true,
-          "stale_since": "2026-11-11"
+          "rank": 25
         },
         {
           "name": "AWFIS Space Solutions Ltd",
