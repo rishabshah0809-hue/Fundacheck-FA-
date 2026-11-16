@@ -1,17 +1,13 @@
 {
-  "generated_at": "2026-11-16T12:34:43.708662+00:00",
+  "generated_at": "2026-11-16T20:05:51.073440+00:00",
   "market_snapshot_date": "2026-11-16",
   "source": "Screener.in (public company pages)",
   "source_note": "Screener.in public data — not official exchange data, not guaranteed real-time.",
   "unique_companies": 410,
-  "fetched_ok": 405,
-  "fetch_failed": 5,
+  "fetched_ok": 409,
+  "fetch_failed": 1,
   "failed_symbols": [
-    "ICICIPRULI",
-    "RITES",
-    "FSL",
-    "HEMIPROP",
-    "TVSSCS"
+    "ICICIPRULI"
   ],
   "sectors": [
     {
@@ -312,7 +308,7 @@
           "debt_to_equity": null,
           "interest_coverage": null,
           "revenue_growth_yoy": 18.49,
-          "eps_ttm_growth": 187.55,
+          "eps_ttm_growth": 208.76,
           "book_value": null,
           "dividend_yield": 0.1,
           "net_profit_ttm": 762.0,
@@ -523,7 +519,7 @@
           "debt_to_equity": null,
           "interest_coverage": null,
           "revenue_growth_yoy": 11.45,
-          "eps_ttm_growth": 18.46,
+          "eps_ttm_growth": 25.77,
           "book_value": 115.0,
           "dividend_yield": 0.16,
           "net_profit_ttm": 6191.0,
@@ -691,7 +687,7 @@
           "debt_to_equity": null,
           "interest_coverage": null,
           "revenue_growth_yoy": 15.01,
-          "eps_ttm_growth": -11.89,
+          "eps_ttm_growth": -11.58,
           "book_value": null,
           "dividend_yield": 0.71,
           "net_profit_ttm": 2176.0,
@@ -835,7 +831,7 @@
           "debt_to_equity": null,
           "interest_coverage": null,
           "revenue_growth_yoy": 103.48,
-          "eps_ttm_growth": 134.77,
+          "eps_ttm_growth": 193.99,
           "book_value": null,
           "dividend_yield": 0.46,
           "net_profit_ttm": 157.0,
@@ -5672,7 +5668,7 @@
           "debt_to_equity": 0.37,
           "interest_coverage": 5.16,
           "revenue_growth_yoy": 32.48,
-          "eps_ttm_growth": -25.85,
+          "eps_ttm_growth": 61.36,
           "book_value": 53.6,
           "dividend_yield": 0.0,
           "net_profit_ttm": 797.0,
@@ -5720,7 +5716,7 @@
           "debt_to_equity": 0.01,
           "interest_coverage": -131.7,
           "revenue_growth_yoy": 34.46,
-          "eps_ttm_growth": 99.34,
+          "eps_ttm_growth": 68.87,
           "book_value": 9.09,
           "dividend_yield": 0.0,
           "net_profit_ttm": -922.0,
@@ -5840,7 +5836,7 @@
           "debt_to_equity": 0.21,
           "interest_coverage": 0.26,
           "revenue_growth_yoy": 35.09,
-          "eps_ttm_growth": 91.92,
+          "eps_ttm_growth": 90.48,
           "book_value": 16.1,
           "dividend_yield": 0.0,
           "net_profit_ttm": 107.0,
@@ -5936,7 +5932,7 @@
           "debt_to_equity": 0.07,
           "interest_coverage": -39.54,
           "revenue_growth_yoy": 36.01,
-          "eps_ttm_growth": -131.02,
+          "eps_ttm_growth": -188.37,
           "book_value": 12.8,
           "dividend_yield": 0.0,
           "net_profit_ttm": -457.0,
@@ -6826,7 +6822,7 @@
           "debt_to_equity": 0.37,
           "interest_coverage": 5.16,
           "revenue_growth_yoy": 32.48,
-          "eps_ttm_growth": -25.85,
+          "eps_ttm_growth": 61.36,
           "book_value": 53.6,
           "dividend_yield": 0.0,
           "net_profit_ttm": 797.0,
@@ -6850,7 +6846,7 @@
           "debt_to_equity": 0.01,
           "interest_coverage": -131.7,
           "revenue_growth_yoy": 34.46,
-          "eps_ttm_growth": 99.34,
+          "eps_ttm_growth": 68.87,
           "book_value": 9.09,
           "dividend_yield": 0.0,
           "net_profit_ttm": -922.0,
@@ -6970,7 +6966,7 @@
           "debt_to_equity": 0.07,
           "interest_coverage": -39.54,
           "revenue_growth_yoy": 36.01,
-          "eps_ttm_growth": -131.02,
+          "eps_ttm_growth": -188.37,
           "book_value": 12.8,
           "dividend_yield": 0.0,
           "net_profit_ttm": -457.0,
@@ -8299,7 +8295,7 @@
           "debt_to_equity": 0.71,
           "interest_coverage": 2.23,
           "revenue_growth_yoy": 12.38,
-          "eps_ttm_growth": -395.54,
+          "eps_ttm_growth": -509.89,
           "book_value": 49.8,
           "dividend_yield": 0.4,
           "net_profit_ttm": 723.0,
@@ -9695,7 +9691,7 @@
           "screener_url": "https://www.screener.in/company/NLCINDIA/",
           "cmp": 236.0,
           "market_cap": 32718.0,
-          "pe": 8.35,
+          "pe": 8.34,
           "pb": 1.4,
           "roe": 13.9,
           "roce": 8.42,
@@ -10556,7 +10552,7 @@
           "market_cap": 37296.0,
           "pe": 21.1,
           "pb": 7.21,
-          "roe": 41.0,
+          "roe": 41.5,
           "roce": 32.7,
           "roa": 14.0,
           "opm": 29.35,
@@ -10916,7 +10912,7 @@
           "market_cap": 20085.0,
           "pe": 75.5,
           "pb": 4.06,
-          "roe": 8.69,
+          "roe": 9.07,
           "roce": 12.7,
           "roa": 3.25,
           "opm": 14.47,
@@ -11166,7 +11162,7 @@
           "revenue_growth_yoy": -0.7,
           "eps_ttm_growth": -25.14,
           "book_value": 122.0,
-          "dividend_yield": 1.34,
+          "dividend_yield": 1.35,
           "net_profit_ttm": 607.0,
           "equity": 7554.0,
           "rank": 49
@@ -11203,41 +11199,39 @@
       "reference_index": "NIFTY CONSTRUCTION",
       "is_financial": false,
       "constituent_count": 23,
-      "included_count": 22,
-      "stale_count": 1,
-      "stale_symbols": [
-        "RITES"
-      ],
+      "included_count": 23,
+      "stale_count": 0,
+      "stale_symbols": [],
       "fundamental_period": "Mar 2026 (annual) + TTM P&L",
       "metrics": {
-        "pe": 23.32,
+        "pe": 23.28,
         "pb": 3.48,
-        "roe": 14.94,
-        "roce": 11.64,
+        "roe": 14.96,
+        "roce": 11.68,
         "methodology": {
           "pe": {
             "formula": "Σ MarketCap / Σ NetProfit(TTM>0)",
-            "included": 22,
+            "included": 23,
             "excluded": 0,
             "exclusions": {}
           },
           "pb": {
             "formula": "Σ MarketCap / Σ Equity (Equity = Equity Capital + Reserves)",
-            "included": 22,
+            "included": 23,
             "excluded": 0
           },
           "roe": {
             "formula": "Σ NetProfit(TTM) / Σ Equity",
-            "included": 22,
+            "included": 23,
             "excluded": 0
           },
           "roce": {
             "formula": "Σ EBIT / Σ (Equity + Borrowings); EBIT = OperatingProfit(TTM) − Depreciation(TTM)",
-            "included": 22,
+            "included": 23,
             "excluded": 0
           }
         },
-        "companies_in_pe": 22
+        "companies_in_pe": 23
       },
       "constituents": [
         {
@@ -11502,9 +11496,7 @@
           "dividend_yield": 4.15,
           "net_profit_ttm": 449.0,
           "equity": 2659.0,
-          "rank": 11,
-          "stale": true,
-          "stale_since": "2026-11-16"
+          "rank": 11
         },
         {
           "name": "KEC International Ltd",
@@ -11802,45 +11794,42 @@
       "reference_index": "NIFTY COMMERCIAL & TRANSPORT SERVICES",
       "is_financial": false,
       "constituent_count": 26,
-      "included_count": 23,
-      "stale_count": 3,
-      "stale_symbols": [
-        "FSL",
-        "HEMIPROP",
-        "TVSSCS"
-      ],
+      "included_count": 26,
+      "stale_count": 0,
+      "stale_symbols": [],
       "fundamental_period": "Mar 2026 (annual) + TTM P&L",
       "metrics": {
-        "pe": 29.07,
-        "pb": 4.56,
-        "roe": 11.69,
-        "roce": 8.73,
+        "pe": 29.16,
+        "pb": 4.54,
+        "roe": 11.66,
+        "roce": 8.82,
         "methodology": {
           "pe": {
             "formula": "Σ MarketCap / Σ NetProfit(TTM>0)",
-            "included": 22,
-            "excluded": 1,
+            "included": 24,
+            "excluded": 2,
             "exclusions": {
+              "HEMIPROP": "net profit <=0 or unavailable",
               "INDIGO": "net profit <=0 or unavailable"
             }
           },
           "pb": {
             "formula": "Σ MarketCap / Σ Equity (Equity = Equity Capital + Reserves)",
-            "included": 22,
+            "included": 25,
             "excluded": 1
           },
           "roe": {
             "formula": "Σ NetProfit(TTM) / Σ Equity",
-            "included": 22,
+            "included": 25,
             "excluded": 1
           },
           "roce": {
             "formula": "Σ EBIT / Σ (Equity + Borrowings); EBIT = OperatingProfit(TTM) − Depreciation(TTM)",
-            "included": 23,
+            "included": 26,
             "excluded": 0
           }
         },
-        "companies_in_pe": 22
+        "companies_in_pe": 24
       },
       "constituents": [
         {
@@ -12057,9 +12046,7 @@
           "dividend_yield": 1.91,
           "net_profit_ttm": 724.0,
           "equity": 4878.0,
-          "rank": 9,
-          "stale": true,
-          "stale_since": "2026-11-16"
+          "rank": 9
         },
         {
           "name": "International Gemological Institute Limited",
@@ -12299,9 +12286,7 @@
           "dividend_yield": 0.0,
           "net_profit_ttm": 89.0,
           "equity": 2106.0,
-          "rank": 19,
-          "stale": true,
-          "stale_since": "2026-11-16"
+          "rank": 19
         },
         {
           "name": "Smartworks Coworking Spaces Ltd",
@@ -12445,9 +12430,7 @@
           "dividend_yield": 0.0,
           "net_profit_ttm": -12.0,
           "equity": 427.0,
-          "rank": 25,
-          "stale": true,
-          "stale_since": "2026-11-16"
+          "rank": 25
         },
         {
           "name": "AWFIS Space Solutions Ltd",
