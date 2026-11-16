@@ -1,13 +1,17 @@
 {
-  "generated_at": "2026-11-16T12:13:57.375859+00:00",
+  "generated_at": "2026-11-16T12:34:43.708662+00:00",
   "market_snapshot_date": "2026-11-16",
   "source": "Screener.in (public company pages)",
   "source_note": "Screener.in public data — not official exchange data, not guaranteed real-time.",
   "unique_companies": 410,
-  "fetched_ok": 409,
-  "fetch_failed": 1,
+  "fetched_ok": 405,
+  "fetch_failed": 5,
   "failed_symbols": [
-    "ICICIPRULI"
+    "ICICIPRULI",
+    "RITES",
+    "FSL",
+    "HEMIPROP",
+    "TVSSCS"
   ],
   "sectors": [
     {
@@ -11199,39 +11203,41 @@
       "reference_index": "NIFTY CONSTRUCTION",
       "is_financial": false,
       "constituent_count": 23,
-      "included_count": 23,
-      "stale_count": 0,
-      "stale_symbols": [],
+      "included_count": 22,
+      "stale_count": 1,
+      "stale_symbols": [
+        "RITES"
+      ],
       "fundamental_period": "Mar 2026 (annual) + TTM P&L",
       "metrics": {
-        "pe": 23.28,
+        "pe": 23.32,
         "pb": 3.48,
-        "roe": 14.96,
-        "roce": 11.68,
+        "roe": 14.94,
+        "roce": 11.64,
         "methodology": {
           "pe": {
             "formula": "Σ MarketCap / Σ NetProfit(TTM>0)",
-            "included": 23,
+            "included": 22,
             "excluded": 0,
             "exclusions": {}
           },
           "pb": {
             "formula": "Σ MarketCap / Σ Equity (Equity = Equity Capital + Reserves)",
-            "included": 23,
+            "included": 22,
             "excluded": 0
           },
           "roe": {
             "formula": "Σ NetProfit(TTM) / Σ Equity",
-            "included": 23,
+            "included": 22,
             "excluded": 0
           },
           "roce": {
             "formula": "Σ EBIT / Σ (Equity + Borrowings); EBIT = OperatingProfit(TTM) − Depreciation(TTM)",
-            "included": 23,
+            "included": 22,
             "excluded": 0
           }
         },
-        "companies_in_pe": 23
+        "companies_in_pe": 22
       },
       "constituents": [
         {
@@ -11496,7 +11502,9 @@
           "dividend_yield": 4.15,
           "net_profit_ttm": 449.0,
           "equity": 2659.0,
-          "rank": 11
+          "rank": 11,
+          "stale": true,
+          "stale_since": "2026-11-16"
         },
         {
           "name": "KEC International Ltd",
@@ -11794,42 +11802,45 @@
       "reference_index": "NIFTY COMMERCIAL & TRANSPORT SERVICES",
       "is_financial": false,
       "constituent_count": 26,
-      "included_count": 26,
-      "stale_count": 0,
-      "stale_symbols": [],
+      "included_count": 23,
+      "stale_count": 3,
+      "stale_symbols": [
+        "FSL",
+        "HEMIPROP",
+        "TVSSCS"
+      ],
       "fundamental_period": "Mar 2026 (annual) + TTM P&L",
       "metrics": {
-        "pe": 29.16,
-        "pb": 4.54,
-        "roe": 11.66,
-        "roce": 8.82,
+        "pe": 29.07,
+        "pb": 4.56,
+        "roe": 11.69,
+        "roce": 8.73,
         "methodology": {
           "pe": {
             "formula": "Σ MarketCap / Σ NetProfit(TTM>0)",
-            "included": 24,
-            "excluded": 2,
+            "included": 22,
+            "excluded": 1,
             "exclusions": {
-              "HEMIPROP": "net profit <=0 or unavailable",
               "INDIGO": "net profit <=0 or unavailable"
             }
           },
           "pb": {
             "formula": "Σ MarketCap / Σ Equity (Equity = Equity Capital + Reserves)",
-            "included": 25,
+            "included": 22,
             "excluded": 1
           },
           "roe": {
             "formula": "Σ NetProfit(TTM) / Σ Equity",
-            "included": 25,
+            "included": 22,
             "excluded": 1
           },
           "roce": {
             "formula": "Σ EBIT / Σ (Equity + Borrowings); EBIT = OperatingProfit(TTM) − Depreciation(TTM)",
-            "included": 26,
+            "included": 23,
             "excluded": 0
           }
         },
-        "companies_in_pe": 24
+        "companies_in_pe": 22
       },
       "constituents": [
         {
@@ -12046,7 +12057,9 @@
           "dividend_yield": 1.91,
           "net_profit_ttm": 724.0,
           "equity": 4878.0,
-          "rank": 9
+          "rank": 9,
+          "stale": true,
+          "stale_since": "2026-11-16"
         },
         {
           "name": "International Gemological Institute Limited",
@@ -12286,7 +12299,9 @@
           "dividend_yield": 0.0,
           "net_profit_ttm": 89.0,
           "equity": 2106.0,
-          "rank": 19
+          "rank": 19,
+          "stale": true,
+          "stale_since": "2026-11-16"
         },
         {
           "name": "Smartworks Coworking Spaces Ltd",
@@ -12430,7 +12445,9 @@
           "dividend_yield": 0.0,
           "net_profit_ttm": -12.0,
           "equity": 427.0,
-          "rank": 25
+          "rank": 25,
+          "stale": true,
+          "stale_since": "2026-11-16"
         },
         {
           "name": "AWFIS Space Solutions Ltd",
