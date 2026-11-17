@@ -1,13 +1,22 @@
 {
-  "generated_at": "2026-11-17T12:39:09.213142+00:00",
+  "generated_at": "2026-11-17T12:55:13.484972+00:00",
   "market_snapshot_date": "2026-11-17",
   "source": "Screener.in (public company pages)",
   "source_note": "Screener.in public data — not official exchange data, not guaranteed real-time.",
   "unique_companies": 410,
-  "fetched_ok": 409,
-  "fetch_failed": 1,
+  "fetched_ok": 400,
+  "fetch_failed": 10,
   "failed_symbols": [
-    "ICICIPRULI"
+    "ICICIPRULI",
+    "HONAUT",
+    "ENRIN",
+    "TDPOWERSYS",
+    "VOLTAMP",
+    "ENGINERSIN",
+    "SWSOLAR",
+    "GESHIP",
+    "INOXGREEN",
+    "SCI"
   ],
   "sectors": [
     {
@@ -9956,39 +9965,44 @@
       "reference_index": "NIFTY CAPITAL GOODS",
       "is_financial": false,
       "constituent_count": 50,
-      "included_count": 50,
-      "stale_count": 0,
-      "stale_symbols": [],
+      "included_count": 46,
+      "stale_count": 4,
+      "stale_symbols": [
+        "HONAUT",
+        "ENRIN",
+        "TDPOWERSYS",
+        "VOLTAMP"
+      ],
       "fundamental_period": "Mar 2026 (annual) + TTM P&L",
       "metrics": {
-        "pe": 40.73,
-        "pb": 8.03,
-        "roe": 19.71,
-        "roce": 18.17,
+        "pe": 39.99,
+        "pb": 7.86,
+        "roe": 19.66,
+        "roce": 17.98,
         "methodology": {
           "pe": {
             "formula": "Σ MarketCap / Σ NetProfit(TTM>0)",
-            "included": 50,
+            "included": 46,
             "excluded": 0,
             "exclusions": {}
           },
           "pb": {
             "formula": "Σ MarketCap / Σ Equity (Equity = Equity Capital + Reserves)",
-            "included": 50,
+            "included": 46,
             "excluded": 0
           },
           "roe": {
             "formula": "Σ NetProfit(TTM) / Σ Equity",
-            "included": 50,
+            "included": 46,
             "excluded": 0
           },
           "roce": {
             "formula": "Σ EBIT / Σ (Equity + Borrowings); EBIT = OperatingProfit(TTM) − Depreciation(TTM)",
-            "included": 50,
+            "included": 46,
             "excluded": 0
           }
         },
-        "companies_in_pe": 50
+        "companies_in_pe": 46
       },
       "constituents": [
         {
@@ -10277,7 +10291,9 @@
           "dividend_yield": 0.13,
           "net_profit_ttm": 1488.0,
           "equity": 4812.0,
-          "rank": 12
+          "rank": 12,
+          "stale": true,
+          "stale_since": "2026-11-17"
         },
         {
           "name": "Ashok Leyland Ltd",
@@ -10685,7 +10701,9 @@
           "dividend_yield": 0.36,
           "net_profit_ttm": 565.0,
           "equity": 4663.0,
-          "rank": 29
+          "rank": 29,
+          "stale": true,
+          "stale_since": "2026-11-17"
         },
         {
           "name": "Escorts Kubota Ltd",
@@ -10877,7 +10895,9 @@
           "dividend_yield": 0.17,
           "net_profit_ttm": 339.0,
           "equity": 1339.0,
-          "rank": 37
+          "rank": 37,
+          "stale": true,
+          "stale_since": "2026-11-17"
         },
         {
           "name": "Carborundum Universal Ltd",
@@ -11141,7 +11161,9 @@
           "dividend_yield": 1.06,
           "net_profit_ttm": 323.0,
           "equity": 1867.0,
-          "rank": 48
+          "rank": 48,
+          "stale": true,
+          "stale_since": "2026-11-17"
         },
         {
           "name": "Finolex Industries Ltd",
@@ -11199,39 +11221,42 @@
       "reference_index": "NIFTY CONSTRUCTION",
       "is_financial": false,
       "constituent_count": 23,
-      "included_count": 23,
-      "stale_count": 0,
-      "stale_symbols": [],
+      "included_count": 21,
+      "stale_count": 2,
+      "stale_symbols": [
+        "ENGINERSIN",
+        "SWSOLAR"
+      ],
       "fundamental_period": "Mar 2026 (annual) + TTM P&L",
       "metrics": {
-        "pe": 23.36,
-        "pb": 3.5,
-        "roe": 14.96,
-        "roce": 11.68,
+        "pe": 23.5,
+        "pb": 3.46,
+        "roe": 14.74,
+        "roce": 11.56,
         "methodology": {
           "pe": {
             "formula": "Σ MarketCap / Σ NetProfit(TTM>0)",
-            "included": 23,
+            "included": 21,
             "excluded": 0,
             "exclusions": {}
           },
           "pb": {
             "formula": "Σ MarketCap / Σ Equity (Equity = Equity Capital + Reserves)",
-            "included": 23,
+            "included": 21,
             "excluded": 0
           },
           "roe": {
             "formula": "Σ NetProfit(TTM) / Σ Equity",
-            "included": 23,
+            "included": 21,
             "excluded": 0
           },
           "roce": {
             "formula": "Σ EBIT / Σ (Equity + Borrowings); EBIT = OperatingProfit(TTM) − Depreciation(TTM)",
-            "included": 23,
+            "included": 21,
             "excluded": 0
           }
         },
-        "companies_in_pe": 23
+        "companies_in_pe": 21
       },
       "constituents": [
         {
@@ -11400,7 +11425,9 @@
           "dividend_yield": 1.6,
           "net_profit_ttm": 897.0,
           "equity": 3341.0,
-          "rank": 7
+          "rank": 7,
+          "stale": true,
+          "stale_since": "2026-11-17"
         },
         {
           "name": "Techno Electric & Engineering Company Ltd",
@@ -11664,7 +11691,9 @@
           "dividend_yield": 0.0,
           "net_profit_ttm": 213.0,
           "equity": 722.0,
-          "rank": 18
+          "rank": 18,
+          "stale": true,
+          "stale_since": "2026-11-17"
         },
         {
           "name": "Ahluwalia Contracts (India) Ltd",
@@ -11794,19 +11823,23 @@
       "reference_index": "NIFTY COMMERCIAL & TRANSPORT SERVICES",
       "is_financial": false,
       "constituent_count": 26,
-      "included_count": 26,
-      "stale_count": 0,
-      "stale_symbols": [],
+      "included_count": 23,
+      "stale_count": 3,
+      "stale_symbols": [
+        "GESHIP",
+        "INOXGREEN",
+        "SCI"
+      ],
       "fundamental_period": "Mar 2026 (annual) + TTM P&L",
       "metrics": {
-        "pe": 29.53,
-        "pb": 4.6,
-        "roe": 11.66,
-        "roce": 8.82,
+        "pe": 36.0,
+        "pb": 5.15,
+        "roe": 10.11,
+        "roce": 8.32,
         "methodology": {
           "pe": {
             "formula": "Σ MarketCap / Σ NetProfit(TTM>0)",
-            "included": 24,
+            "included": 21,
             "excluded": 2,
             "exclusions": {
               "HEMIPROP": "net profit <=0 or unavailable",
@@ -11815,21 +11848,21 @@
           },
           "pb": {
             "formula": "Σ MarketCap / Σ Equity (Equity = Equity Capital + Reserves)",
-            "included": 25,
+            "included": 22,
             "excluded": 1
           },
           "roe": {
             "formula": "Σ NetProfit(TTM) / Σ Equity",
-            "included": 25,
+            "included": 22,
             "excluded": 1
           },
           "roce": {
             "formula": "Σ EBIT / Σ (Equity + Borrowings); EBIT = OperatingProfit(TTM) − Depreciation(TTM)",
-            "included": 26,
+            "included": 23,
             "excluded": 0
           }
         },
-        "companies_in_pe": 24
+        "companies_in_pe": 21
       },
       "constituents": [
         {
@@ -12022,7 +12055,9 @@
           "dividend_yield": 2.27,
           "net_profit_ttm": 4435.0,
           "equity": 18933.0,
-          "rank": 8
+          "rank": 8,
+          "stale": true,
+          "stale_since": "2026-11-17"
         },
         {
           "name": "Firstsource Solutions Ltd",
@@ -12118,7 +12153,9 @@
           "dividend_yield": 2.88,
           "net_profit_ttm": 2007.0,
           "equity": 10305.0,
-          "rank": 12
+          "rank": 12,
+          "stale": true,
+          "stale_since": "2026-11-17"
         },
         {
           "name": "Blue Dart Express Ltd",
@@ -12382,7 +12419,9 @@
           "dividend_yield": 0.0,
           "net_profit_ttm": 137.0,
           "equity": 2086.0,
-          "rank": 23
+          "rank": 23,
+          "stale": true,
+          "stale_since": "2026-11-17"
         },
         {
           "name": "CMS Info Systems Ltd",
