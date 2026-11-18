@@ -1,21 +1,26 @@
 {
-  "generated_at": "2026-11-18T12:26:02.083014+00:00",
+  "generated_at": "2026-11-18T12:48:39.146273+00:00",
   "market_snapshot_date": "2026-11-18",
   "source": "Screener.in (public company pages)",
   "source_note": "Screener.in public data — not official exchange data, not guaranteed real-time.",
   "unique_companies": 410,
-  "fetched_ok": 401,
-  "fetch_failed": 9,
+  "fetched_ok": 396,
+  "fetch_failed": 14,
   "failed_symbols": [
     "ICICIPRULI",
+    "FINPIPE",
+    "HBLENGINE",
+    "POWERINDIA",
     "HONAUT",
-    "POLYCAB",
+    "PRAJIND",
     "ENRIN",
-    "VOLTAMP",
-    "IRCON",
-    "CONCOR",
+    "USHAMART",
+    "WAAREEENER",
+    "HGINFRA",
+    "SWSOLAR",
+    "GMRAIRPORT",
     "HEMIPROP",
-    "QUESS"
+    "SCI"
   ],
   "sectors": [
     {
@@ -9964,44 +9969,48 @@
       "reference_index": "NIFTY CAPITAL GOODS",
       "is_financial": false,
       "constituent_count": 50,
-      "included_count": 46,
-      "stale_count": 4,
+      "included_count": 42,
+      "stale_count": 8,
       "stale_symbols": [
+        "FINPIPE",
+        "HBLENGINE",
+        "POWERINDIA",
         "HONAUT",
-        "POLYCAB",
+        "PRAJIND",
         "ENRIN",
-        "VOLTAMP"
+        "USHAMART",
+        "WAAREEENER"
       ],
       "fundamental_period": "Mar 2026 (annual) + TTM P&L",
       "metrics": {
-        "pe": 39.86,
-        "pb": 7.77,
-        "roe": 19.5,
-        "roce": 17.63,
+        "pe": 39.81,
+        "pb": 7.87,
+        "roe": 19.77,
+        "roce": 17.85,
         "methodology": {
           "pe": {
             "formula": "Σ MarketCap / Σ NetProfit(TTM>0)",
-            "included": 46,
+            "included": 42,
             "excluded": 0,
             "exclusions": {}
           },
           "pb": {
             "formula": "Σ MarketCap / Σ Equity (Equity = Equity Capital + Reserves)",
-            "included": 46,
+            "included": 42,
             "excluded": 0
           },
           "roe": {
             "formula": "Σ NetProfit(TTM) / Σ Equity",
-            "included": 46,
+            "included": 42,
             "excluded": 0
           },
           "roce": {
             "formula": "Σ EBIT / Σ (Equity + Borrowings); EBIT = OperatingProfit(TTM) − Depreciation(TTM)",
-            "included": 46,
+            "included": 42,
             "excluded": 0
           }
         },
-        "companies_in_pe": 46
+        "companies_in_pe": 42
       },
       "constituents": [
         {
@@ -10146,7 +10155,9 @@
           "dividend_yield": 0.03,
           "net_profit_ttm": 1205.0,
           "equity": 5756.0,
-          "rank": 6
+          "rank": 6,
+          "stale": true,
+          "stale_since": "2026-11-18"
         },
         {
           "name": "Siemens Ltd",
@@ -10197,32 +10208,6 @@
           "rank": 8
         },
         {
-          "name": "Polycab India Ltd",
-          "nse_symbol": "POLYCAB",
-          "nse_url": "https://www.nseindia.com/get-quotes/equity?symbol=POLYCAB",
-          "screener_url": "https://www.screener.in/company/POLYCAB/",
-          "cmp": 7702.0,
-          "market_cap": 116230.0,
-          "pe": 36.8,
-          "pb": 8.86,
-          "roe": 23.6,
-          "roce": 33.2,
-          "roa": 13.46,
-          "opm": 13.54,
-          "npm": 9.25,
-          "debt_to_equity": 0.02,
-          "interest_coverage": 13.47,
-          "revenue_growth_yoy": 28.9,
-          "eps_ttm_growth": 32.17,
-          "book_value": 869.0,
-          "dividend_yield": 0.61,
-          "net_profit_ttm": 3202.0,
-          "equity": 13094.0,
-          "rank": 9,
-          "stale": true,
-          "stale_since": "2026-11-17"
-        },
-        {
           "name": "Cummins India Ltd",
           "nse_symbol": "CUMMINSIND",
           "nse_url": "https://www.nseindia.com/get-quotes/equity?symbol=CUMMINSIND",
@@ -10244,7 +10229,7 @@
           "dividend_yield": 1.65,
           "net_profit_ttm": 2252.0,
           "equity": 8299.0,
-          "rank": 10
+          "rank": 9
         },
         {
           "name": "GE Vernova T&D India Ltd",
@@ -10268,6 +10253,30 @@
           "dividend_yield": 0.23,
           "net_profit_ttm": 187.0,
           "equity": 1003.0,
+          "rank": 10
+        },
+        {
+          "name": "Polycab India Ltd",
+          "nse_symbol": "POLYCAB",
+          "nse_url": "https://www.nseindia.com/get-quotes/equity?symbol=POLYCAB",
+          "screener_url": "https://www.screener.in/company/POLYCAB/",
+          "cmp": 7308.0,
+          "market_cap": 110017.0,
+          "pe": 34.9,
+          "pb": 8.41,
+          "roe": 23.6,
+          "roce": 33.2,
+          "roa": 13.46,
+          "opm": 13.54,
+          "npm": 9.25,
+          "debt_to_equity": 0.02,
+          "interest_coverage": 13.47,
+          "revenue_growth_yoy": 28.9,
+          "eps_ttm_growth": 32.17,
+          "book_value": 869.0,
+          "dividend_yield": 0.64,
+          "net_profit_ttm": 3202.0,
+          "equity": 13094.0,
           "rank": 11
         },
         {
@@ -10366,7 +10375,9 @@
           "dividend_yield": 0.17,
           "net_profit_ttm": 3879.0,
           "equity": 16020.0,
-          "rank": 15
+          "rank": 15,
+          "stale": true,
+          "stale_since": "2026-11-18"
         },
         {
           "name": "APL Apollo Tubes Ltd",
@@ -10872,7 +10883,9 @@
           "dividend_yield": 0.38,
           "net_profit_ttm": 586.0,
           "equity": 2488.0,
-          "rank": 36
+          "rank": 36,
+          "stale": true,
+          "stale_since": "2026-11-18"
         },
         {
           "name": "TD Power Systems Ltd",
@@ -11088,7 +11101,9 @@
           "dividend_yield": 0.81,
           "net_profit_ttm": 527.0,
           "equity": 3469.0,
-          "rank": 45
+          "rank": 45,
+          "stale": true,
+          "stale_since": "2026-11-18"
         },
         {
           "name": "Inox Wind Ltd",
@@ -11143,10 +11158,10 @@
           "nse_symbol": "VOLTAMP",
           "nse_url": "https://www.nseindia.com/get-quotes/equity?symbol=VOLTAMP",
           "screener_url": "https://www.screener.in/company/VOLTAMP/",
-          "cmp": 9474.0,
-          "market_cap": 9589.0,
-          "pe": 29.7,
-          "pb": 5.13,
+          "cmp": 9535.0,
+          "market_cap": 9650.0,
+          "pe": 29.8,
+          "pb": 5.17,
           "roe": 17.4,
           "roce": 23.5,
           "roa": 14.58,
@@ -11157,12 +11172,10 @@
           "revenue_growth_yoy": 11.38,
           "eps_ttm_growth": -6.15,
           "book_value": 1845.0,
-          "dividend_yield": 1.06,
+          "dividend_yield": 1.05,
           "net_profit_ttm": 323.0,
           "equity": 1867.0,
-          "rank": 48,
-          "stale": true,
-          "stale_since": "2026-11-17"
+          "rank": 48
         },
         {
           "name": "Finolex Industries Ltd",
@@ -11186,7 +11199,9 @@
           "dividend_yield": 1.38,
           "net_profit_ttm": 607.0,
           "equity": 7554.0,
-          "rank": 49
+          "rank": 49,
+          "stale": true,
+          "stale_since": "2026-11-18"
         },
         {
           "name": "Praj Industries Ltd",
@@ -11210,7 +11225,9 @@
           "dividend_yield": 1.5,
           "net_profit_ttm": 34.0,
           "equity": 1278.0,
-          "rank": 50
+          "rank": 50,
+          "stale": true,
+          "stale_since": "2026-11-18"
         }
       ]
     },
@@ -11220,41 +11237,42 @@
       "reference_index": "NIFTY CONSTRUCTION",
       "is_financial": false,
       "constituent_count": 23,
-      "included_count": 22,
-      "stale_count": 1,
+      "included_count": 21,
+      "stale_count": 2,
       "stale_symbols": [
-        "IRCON"
+        "HGINFRA",
+        "SWSOLAR"
       ],
       "fundamental_period": "Mar 2026 (annual) + TTM P&L",
       "metrics": {
-        "pe": 23.26,
-        "pb": 3.53,
-        "roe": 15.19,
-        "roce": 11.86,
+        "pe": 23.33,
+        "pb": 3.51,
+        "roe": 15.04,
+        "roce": 11.66,
         "methodology": {
           "pe": {
             "formula": "Σ MarketCap / Σ NetProfit(TTM>0)",
-            "included": 22,
+            "included": 21,
             "excluded": 0,
             "exclusions": {}
           },
           "pb": {
             "formula": "Σ MarketCap / Σ Equity (Equity = Equity Capital + Reserves)",
-            "included": 22,
+            "included": 21,
             "excluded": 0
           },
           "roe": {
             "formula": "Σ NetProfit(TTM) / Σ Equity",
-            "included": 22,
+            "included": 21,
             "excluded": 0
           },
           "roce": {
             "formula": "Σ EBIT / Σ (Equity + Borrowings); EBIT = OperatingProfit(TTM) − Depreciation(TTM)",
-            "included": 22,
+            "included": 21,
             "excluded": 0
           }
         },
-        "companies_in_pe": 22
+        "companies_in_pe": 21
       },
       "constituents": [
         {
@@ -11454,10 +11472,10 @@
           "nse_symbol": "IRCON",
           "nse_url": "https://www.nseindia.com/get-quotes/equity?symbol=IRCON",
           "screener_url": "https://www.screener.in/company/IRCON/",
-          "cmp": 109.0,
-          "market_cap": 10240.0,
-          "pe": 21.0,
-          "pb": 1.51,
+          "cmp": 106.0,
+          "market_cap": 9955.0,
+          "pe": 20.4,
+          "pb": 1.47,
           "roe": 8.19,
           "roce": 9.27,
           "roa": 2.26,
@@ -11468,12 +11486,10 @@
           "revenue_growth_yoy": -15.7,
           "eps_ttm_growth": -18.11,
           "book_value": 72.0,
-          "dividend_yield": 1.75,
+          "dividend_yield": 1.8,
           "net_profit_ttm": 484.0,
           "equity": 6774.0,
-          "rank": 9,
-          "stale": true,
-          "stale_since": "2026-11-17"
+          "rank": 9
         },
         {
           "name": "Welspun Enterprises Ltd",
@@ -11689,7 +11705,9 @@
           "dividend_yield": 0.0,
           "net_profit_ttm": 213.0,
           "equity": 722.0,
-          "rank": 18
+          "rank": 18,
+          "stale": true,
+          "stale_since": "2026-11-18"
         },
         {
           "name": "Ahluwalia Contracts (India) Ltd",
@@ -11809,7 +11827,9 @@
           "dividend_yield": 0.5,
           "net_profit_ttm": 214.0,
           "equity": 3287.0,
-          "rank": 23
+          "rank": 23,
+          "stale": true,
+          "stale_since": "2026-11-18"
         }
       ]
     },
@@ -11822,16 +11842,16 @@
       "included_count": 23,
       "stale_count": 3,
       "stale_symbols": [
-        "CONCOR",
+        "GMRAIRPORT",
         "HEMIPROP",
-        "QUESS"
+        "SCI"
       ],
       "fundamental_period": "Mar 2026 (annual) + TTM P&L",
       "metrics": {
-        "pe": 29.4,
-        "pb": 4.66,
-        "roe": 11.79,
-        "roce": 8.78,
+        "pe": 27.71,
+        "pb": 4.69,
+        "roe": 11.31,
+        "roce": 8.59,
         "methodology": {
           "pe": {
             "formula": "Σ MarketCap / Σ NetProfit(TTM>0)",
@@ -11843,13 +11863,13 @@
           },
           "pb": {
             "formula": "Σ MarketCap / Σ Equity (Equity = Equity Capital + Reserves)",
-            "included": 22,
-            "excluded": 1
+            "included": 23,
+            "excluded": 0
           },
           "roe": {
             "formula": "Σ NetProfit(TTM) / Σ Equity",
-            "included": 22,
-            "excluded": 1
+            "included": 23,
+            "excluded": 0
           },
           "roce": {
             "formula": "Σ EBIT / Σ (Equity + Borrowings); EBIT = OperatingProfit(TTM) − Depreciation(TTM)",
@@ -11930,7 +11950,9 @@
           "dividend_yield": 0.0,
           "net_profit_ttm": 788.0,
           "equity": -2482.0,
-          "rank": 3
+          "rank": 3,
+          "stale": true,
+          "stale_since": "2026-11-18"
         },
         {
           "name": "JSW Infrastructure Ltd",
@@ -11957,32 +11979,6 @@
           "rank": 4
         },
         {
-          "name": "Container Corporation Of India Ltd",
-          "nse_symbol": "CONCOR",
-          "nse_url": "https://www.nseindia.com/get-quotes/equity?symbol=CONCOR",
-          "screener_url": "https://www.screener.in/company/CONCOR/",
-          "cmp": 442.0,
-          "market_cap": 33694.0,
-          "pe": 27.7,
-          "pb": 2.51,
-          "roe": 9.81,
-          "roce": 12.6,
-          "roa": 7.74,
-          "opm": 21.25,
-          "npm": 13.4,
-          "debt_to_equity": 0.08,
-          "interest_coverage": 15.73,
-          "revenue_growth_yoy": 2.16,
-          "eps_ttm_growth": -3.78,
-          "book_value": 176.0,
-          "dividend_yield": 1.95,
-          "net_profit_ttm": 1221.0,
-          "equity": 13369.0,
-          "rank": 5,
-          "stale": true,
-          "stale_since": "2026-11-17"
-        },
-        {
           "name": "Delhivery Ltd",
           "nse_symbol": "DELHIVERY",
           "nse_url": "https://www.nseindia.com/get-quotes/equity?symbol=DELHIVERY",
@@ -12004,6 +12000,30 @@
           "dividend_yield": 0.0,
           "net_profit_ttm": 185.0,
           "equity": 9816.0,
+          "rank": 5
+        },
+        {
+          "name": "Container Corporation Of India Ltd",
+          "nse_symbol": "CONCOR",
+          "nse_url": "https://www.nseindia.com/get-quotes/equity?symbol=CONCOR",
+          "screener_url": "https://www.screener.in/company/CONCOR/",
+          "cmp": 437.0,
+          "market_cap": 33332.0,
+          "pe": 27.4,
+          "pb": 2.48,
+          "roe": 9.81,
+          "roce": 12.6,
+          "roa": 7.74,
+          "opm": 21.25,
+          "npm": 13.4,
+          "debt_to_equity": 0.08,
+          "interest_coverage": 15.73,
+          "revenue_growth_yoy": 2.16,
+          "eps_ttm_growth": -3.78,
+          "book_value": 176.0,
+          "dividend_yield": 1.97,
+          "net_profit_ttm": 1221.0,
+          "equity": 13369.0,
           "rank": 6
         },
         {
@@ -12148,7 +12168,9 @@
           "dividend_yield": 2.93,
           "net_profit_ttm": 2007.0,
           "equity": 10305.0,
-          "rank": 12
+          "rank": 12,
+          "stale": true,
+          "stale_since": "2026-11-18"
         },
         {
           "name": "Blue Dart Express Ltd",
@@ -12347,10 +12369,10 @@
           "nse_symbol": "QUESS",
           "nse_url": "https://www.nseindia.com/get-quotes/equity?symbol=QUESS",
           "screener_url": "https://www.screener.in/company/QUESS/",
-          "cmp": 337.0,
-          "market_cap": 5035.0,
-          "pe": 17.9,
-          "pb": 4.26,
+          "cmp": 327.0,
+          "market_cap": 4887.0,
+          "pe": 17.4,
+          "pb": 4.13,
           "roe": 21.3,
           "roce": 24.0,
           "roa": 7.56,
@@ -12361,12 +12383,10 @@
           "revenue_growth_yoy": 2.26,
           "eps_ttm_growth": 381.82,
           "book_value": 79.2,
-          "dividend_yield": 2.37,
+          "dividend_yield": 2.44,
           "net_profit_ttm": 276.0,
           "equity": 1183.0,
-          "rank": 21,
-          "stale": true,
-          "stale_since": "2026-11-17"
+          "rank": 21
         },
         {
           "name": "MSTC Ltd",
