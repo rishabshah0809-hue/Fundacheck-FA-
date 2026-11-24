@@ -1,13 +1,20 @@
 {
-  "generated_at": "2026-11-24T14:42:08.232586+00:00",
+  "generated_at": "2026-11-24T20:35:45.544623+00:00",
   "market_snapshot_date": "2026-11-24",
   "source": "Screener.in (public company pages)",
   "source_note": "Screener.in public data — not official exchange data, not guaranteed real-time.",
   "unique_companies": 410,
-  "fetched_ok": 409,
-  "fetch_failed": 1,
+  "fetched_ok": 402,
+  "fetch_failed": 8,
   "failed_symbols": [
-    "ICICIPRULI"
+    "ICICIPRULI",
+    "ENRIN",
+    "THERMAX",
+    "VOLTAMP",
+    "IRCON",
+    "BLUEDART",
+    "HEMIPROP",
+    "MSTCLTD"
   ],
   "sectors": [
     {
@@ -9956,39 +9963,43 @@
       "reference_index": "NIFTY CAPITAL GOODS",
       "is_financial": false,
       "constituent_count": 50,
-      "included_count": 50,
-      "stale_count": 0,
-      "stale_symbols": [],
+      "included_count": 47,
+      "stale_count": 3,
+      "stale_symbols": [
+        "ENRIN",
+        "THERMAX",
+        "VOLTAMP"
+      ],
       "fundamental_period": "Mar 2026 (annual) + TTM P&L",
       "metrics": {
-        "pe": 40.06,
-        "pb": 7.9,
+        "pe": 39.35,
+        "pb": 7.76,
         "roe": 19.71,
-        "roce": 18.17,
+        "roce": 18.15,
         "methodology": {
           "pe": {
             "formula": "Σ MarketCap / Σ NetProfit(TTM>0)",
-            "included": 50,
+            "included": 47,
             "excluded": 0,
             "exclusions": {}
           },
           "pb": {
             "formula": "Σ MarketCap / Σ Equity (Equity = Equity Capital + Reserves)",
-            "included": 50,
+            "included": 47,
             "excluded": 0
           },
           "roe": {
             "formula": "Σ NetProfit(TTM) / Σ Equity",
-            "included": 50,
+            "included": 47,
             "excluded": 0
           },
           "roce": {
             "formula": "Σ EBIT / Σ (Equity + Borrowings); EBIT = OperatingProfit(TTM) − Depreciation(TTM)",
-            "included": 50,
+            "included": 47,
             "excluded": 0
           }
         },
-        "companies_in_pe": 50
+        "companies_in_pe": 47
       },
       "constituents": [
         {
@@ -10277,7 +10288,9 @@
           "dividend_yield": 0.13,
           "net_profit_ttm": 1488.0,
           "equity": 4812.0,
-          "rank": 12
+          "rank": 12,
+          "stale": true,
+          "stale_since": "2026-11-24"
         },
         {
           "name": "Ashok Leyland Ltd",
@@ -10613,7 +10626,9 @@
           "dividend_yield": 0.52,
           "net_profit_ttm": 584.0,
           "equity": 5485.0,
-          "rank": 26
+          "rank": 26,
+          "stale": true,
+          "stale_since": "2026-11-24"
         },
         {
           "name": "AIA Engineering Ltd",
@@ -11093,7 +11108,9 @@
           "dividend_yield": 1.04,
           "net_profit_ttm": 323.0,
           "equity": 1867.0,
-          "rank": 46
+          "rank": 46,
+          "stale": true,
+          "stale_since": "2026-11-24"
         },
         {
           "name": "Titagarh Rail Systems Ltd",
@@ -11199,39 +11216,41 @@
       "reference_index": "NIFTY CONSTRUCTION",
       "is_financial": false,
       "constituent_count": 23,
-      "included_count": 23,
-      "stale_count": 0,
-      "stale_symbols": [],
+      "included_count": 22,
+      "stale_count": 1,
+      "stale_symbols": [
+        "IRCON"
+      ],
       "fundamental_period": "Mar 2026 (annual) + TTM P&L",
       "metrics": {
-        "pe": 22.98,
-        "pb": 3.44,
-        "roe": 14.96,
-        "roce": 11.68,
+        "pe": 23.01,
+        "pb": 3.5,
+        "roe": 15.19,
+        "roce": 11.86,
         "methodology": {
           "pe": {
             "formula": "Σ MarketCap / Σ NetProfit(TTM>0)",
-            "included": 23,
+            "included": 22,
             "excluded": 0,
             "exclusions": {}
           },
           "pb": {
             "formula": "Σ MarketCap / Σ Equity (Equity = Equity Capital + Reserves)",
-            "included": 23,
+            "included": 22,
             "excluded": 0
           },
           "roe": {
             "formula": "Σ NetProfit(TTM) / Σ Equity",
-            "included": 23,
+            "included": 22,
             "excluded": 0
           },
           "roce": {
             "formula": "Σ EBIT / Σ (Equity + Borrowings); EBIT = OperatingProfit(TTM) − Depreciation(TTM)",
-            "included": 23,
+            "included": 22,
             "excluded": 0
           }
         },
-        "companies_in_pe": 23
+        "companies_in_pe": 22
       },
       "constituents": [
         {
@@ -11448,7 +11467,9 @@
           "dividend_yield": 1.76,
           "net_profit_ttm": 484.0,
           "equity": 6774.0,
-          "rank": 9
+          "rank": 9,
+          "stale": true,
+          "stale_since": "2026-11-24"
         },
         {
           "name": "Welspun Enterprises Ltd",
@@ -11794,42 +11815,45 @@
       "reference_index": "NIFTY COMMERCIAL & TRANSPORT SERVICES",
       "is_financial": false,
       "constituent_count": 26,
-      "included_count": 26,
-      "stale_count": 0,
-      "stale_symbols": [],
+      "included_count": 23,
+      "stale_count": 3,
+      "stale_symbols": [
+        "BLUEDART",
+        "HEMIPROP",
+        "MSTCLTD"
+      ],
       "fundamental_period": "Mar 2026 (annual) + TTM P&L",
       "metrics": {
-        "pe": 29.36,
-        "pb": 4.57,
-        "roe": 11.66,
-        "roce": 8.82,
+        "pe": 29.42,
+        "pb": 4.55,
+        "roe": 11.58,
+        "roce": 8.75,
         "methodology": {
           "pe": {
             "formula": "Σ MarketCap / Σ NetProfit(TTM>0)",
-            "included": 24,
-            "excluded": 2,
+            "included": 22,
+            "excluded": 1,
             "exclusions": {
-              "HEMIPROP": "net profit <=0 or unavailable",
               "INDIGO": "net profit <=0 or unavailable"
             }
           },
           "pb": {
             "formula": "Σ MarketCap / Σ Equity (Equity = Equity Capital + Reserves)",
-            "included": 25,
+            "included": 22,
             "excluded": 1
           },
           "roe": {
             "formula": "Σ NetProfit(TTM) / Σ Equity",
-            "included": 25,
+            "included": 22,
             "excluded": 1
           },
           "roce": {
             "formula": "Σ EBIT / Σ (Equity + Borrowings); EBIT = OperatingProfit(TTM) − Depreciation(TTM)",
-            "included": 26,
+            "included": 23,
             "excluded": 0
           }
         },
-        "companies_in_pe": 24
+        "companies_in_pe": 22
       },
       "constituents": [
         {
@@ -12142,7 +12166,9 @@
           "dividend_yield": 0.56,
           "net_profit_ttm": 310.0,
           "equity": 1912.0,
-          "rank": 13
+          "rank": 13,
+          "stale": true,
+          "stale_since": "2026-11-24"
         },
         {
           "name": "Wework India Management Ltd",
@@ -12358,7 +12384,9 @@
           "dividend_yield": 2.4,
           "net_profit_ttm": 262.0,
           "equity": 980.0,
-          "rank": 22
+          "rank": 22,
+          "stale": true,
+          "stale_since": "2026-11-24"
         },
         {
           "name": "Inox Green Energy Services Ltd",
@@ -12430,7 +12458,9 @@
           "dividend_yield": 0.0,
           "net_profit_ttm": -12.0,
           "equity": 427.0,
-          "rank": 25
+          "rank": 25,
+          "stale": true,
+          "stale_since": "2026-11-24"
         },
         {
           "name": "AWFIS Space Solutions Ltd",
